@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-lime: #B8FF00;
+  --color-lime-dark: #9ADB00;
+  --color-surface: #1a1a1a;
+  --color-surface-light: #2a2a2a;
+  --color-green-accent: #4CAF50;
+}
+
+html {
+  scroll-behavior: smooth;
+}
