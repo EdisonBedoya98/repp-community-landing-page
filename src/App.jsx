@@ -1,5 +1,4 @@
-const APP_STORE_URL = "#"
-const PLAY_STORE_URL = "#"
+import { useState } from "react"
 
 function Sparkle({ className = "" }) {
   return (
@@ -9,10 +8,11 @@ function Sparkle({ className = "" }) {
   )
 }
 
-function AppStoreBadge() {
+function AppStoreBadge({ onClick }) {
   return (
-    <a
-      href={APP_STORE_URL}
+    <button
+      onClick={onClick}
+      type="button"
       className="inline-flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl border border-white/30 hover:border-white/60 transition-colors"
     >
       <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
@@ -22,14 +22,15 @@ function AppStoreBadge() {
         <div className="text-xs leading-none opacity-80">Descargalo en el</div>
         <div className="text-xl font-semibold leading-tight">App Store</div>
       </div>
-    </a>
+    </button>
   )
 }
 
-function PlayStoreBadge() {
+function PlayStoreBadge({ onClick }) {
   return (
-    <a
-      href={PLAY_STORE_URL}
+    <button
+      onClick={onClick}
+      type="button"
       className="inline-flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl border border-white/30 hover:border-white/60 transition-colors"
     >
       <svg className="w-8 h-8" viewBox="0 0 24 24">
@@ -42,7 +43,7 @@ function PlayStoreBadge() {
         <div className="text-xs leading-none opacity-80">Descargar en</div>
         <div className="text-xl font-semibold leading-tight">Google Play</div>
       </div>
-    </a>
+    </button>
   )
 }
 
@@ -58,9 +59,43 @@ function FeatureCard({ icon, title, description }) {
   )
 }
 
+function ComingSoonModal({ isOpen, onClose }) {
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center px-6">
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose} />
+      <div className="relative bg-[#111] border border-white/10 rounded-3xl p-8 max-w-sm w-full text-center">
+        <Sparkle className="w-8 h-8 text-lime mx-auto mb-4" />
+        <h3 className="text-3xl font-black uppercase tracking-tighter mb-2">
+          ¡Próximamente!
+        </h3>
+        <p className="text-gray-400 mb-6">
+          Estamos trabajando para llevar Repp a tus dispositivos. ¡Mantente atento!
+        </p>
+        <button
+          onClick={onClose}
+          type="button"
+          className="bg-lime text-black font-bold uppercase tracking-wider px-6 py-3 rounded-xl w-full hover:bg-lime/90 transition-colors"
+        >
+          Entendido
+        </button>
+      </div>
+    </div>
+  )
+}
+
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const handleOpenModal = (e) => {
+    e.preventDefault();
+    setIsModalOpen(true);
+  }
+
   return (
     <div className="min-h-screen font-sans overflow-hidden">
+      <ComingSoonModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
       {/* Nav */}
       <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-lg border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -71,12 +106,13 @@ function App() {
           <div className="hidden sm:flex items-center gap-8">
             <a href="#features" className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors">Funciones</a>
             <a href="#cta" className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors">Descargar</a>
-            <a
-              href={APP_STORE_URL}
+            <button
+              onClick={handleOpenModal}
+              type="button"
               className="text-sm bg-lime text-black px-5 py-2 rounded-full font-bold uppercase tracking-wider hover:bg-lime-dark transition-colors"
             >
               Obtener App
-            </a>
+            </button>
           </div>
         </div>
       </nav>
@@ -129,8 +165,8 @@ function App() {
 
             {/* CTA Buttons */}
             <div className="flex flex-row items-center gap-4 flex-wrap justify-center sm:justify-start">
-              <AppStoreBadge />
-              <PlayStoreBadge />
+              <AppStoreBadge onClick={handleOpenModal} />
+              <PlayStoreBadge onClick={handleOpenModal} />
             </div>
           </div>
 
@@ -239,8 +275,8 @@ function App() {
             Descarga la app y lleva tu entrenamiento al siguiente nivel. Gratis.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <AppStoreBadge />
-            <PlayStoreBadge />
+            <AppStoreBadge onClick={handleOpenModal} />
+            <PlayStoreBadge onClick={handleOpenModal} />
           </div>
         </div>
       </section>
