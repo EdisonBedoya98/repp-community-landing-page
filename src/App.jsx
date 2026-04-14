@@ -1,4 +1,5 @@
 import { useState } from "react"
+import reppetImg from "./assets/Reppet.png"
 
 function Sparkle({ className = "" }) {
   return (
@@ -139,34 +140,45 @@ function App() {
         </div>
 
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
-          <div className="max-w-4xl">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 text-lime px-4 py-1.5 rounded-full text-sm font-medium mb-8">
-              <span className="w-2 h-2 bg-lime rounded-full animate-pulse" />
-              Proximamente disponible
+          <div className="flex items-center justify-between gap-12">
+            <div className="max-w-4xl">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 text-lime px-4 py-1.5 rounded-full text-sm font-medium mb-8">
+                <span className="w-2 h-2 bg-lime rounded-full animate-pulse" />
+                Proximamente disponible
+              </div>
+
+              {/* Main headline */}
+              <h1 className="text-7xl sm:text-[8rem] lg:text-[10rem] font-black uppercase leading-[0.85] tracking-tighter mb-8">
+                <span className="text-lime block">Entrena</span>
+                <span className="text-white block">con</span>
+                <span className="text-white block relative">
+                  Repp
+                  <span className="absolute -right-8 top-0">
+                    <Sparkle className="w-6 h-6 text-lime" />
+                  </span>
+                </span>
+              </h1>
+
+              {/* Description */}
+              <p className="text-lg text-gray-400 leading-relaxed mb-10 max-w-lg">
+                Planifica tu semana, registra cada serie y rep, y sigue tu progreso. La app de fitness que se adapta a ti.
+              </p>
+
+              {/* CTA Buttons */}
+              <div className="flex flex-row items-center gap-4 flex-wrap justify-center sm:justify-start">
+                <AppStoreBadge onClick={handleOpenModal} />
+                <PlayStoreBadge onClick={handleOpenModal} />
+              </div>
             </div>
 
-            {/* Main headline */}
-            <h1 className="text-7xl sm:text-[8rem] lg:text-[10rem] font-black uppercase leading-[0.85] tracking-tighter mb-8">
-              <span className="text-lime block">Entrena</span>
-              <span className="text-white block">con</span>
-              <span className="text-white block relative">
-                Repp
-                <span className="absolute -right-8 top-0">
-                  <Sparkle className="w-6 h-6 text-lime" />
-                </span>
-              </span>
-            </h1>
-
-            {/* Description */}
-            <p className="text-lg text-gray-400 leading-relaxed mb-10 max-w-lg">
-              Planifica tu semana, registra cada serie y rep, y sigue tu progreso. La app de fitness que se adapta a ti.
-            </p>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-row items-center gap-4 flex-wrap justify-center sm:justify-start">
-              <AppStoreBadge onClick={handleOpenModal} />
-              <PlayStoreBadge onClick={handleOpenModal} />
+            {/* Reppet - Brand Mascot */}
+            <div className="hidden lg:block shrink-0">
+              <img
+                src={reppetImg}
+                alt="Reppet - mascota de Repp"
+                className="w-72 xl:w-96 rounded-3xl drop-shadow-[0_0_40px_rgba(184,255,0,0.3)]"
+              />
             </div>
           </div>
 
