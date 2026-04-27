@@ -287,12 +287,26 @@ function App() {
         <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
       </div>
       <footer className="py-8 px-6">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
+        <div className="max-w-7xl mx-auto flex flex-col gap-4 sm:grid sm:grid-cols-3 sm:items-center">
+          <div className="flex items-center gap-2 justify-center sm:justify-start">
             <img src="/favicon.svg" alt="Repp" className="w-6 h-6" />
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
-          <p className="text-sm text-gray-500">
+          <div className="flex items-center justify-center gap-6 text-sm">
+            <a
+              href="/privacy-policy"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              Política de Privacidad
+            </a>
+            <a
+              href="/terms-and-conditions"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              Términos y Condiciones
+            </a>
+          </div>
+          <p className="text-sm text-gray-500 text-center sm:text-right">
             &copy; {new Date().getFullYear()} Repp. Todos los derechos reservados.
           </p>
         </div>
