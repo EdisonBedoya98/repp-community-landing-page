@@ -289,7 +289,7 @@ function App() {
       <footer className="py-8 px-6">
         <div className="max-w-7xl mx-auto flex flex-col gap-4 sm:grid sm:grid-cols-3 sm:items-center">
           <div className="flex items-center gap-2 justify-center sm:justify-start">
-            <img src="/favicon.svg" alt="Repp" className="w-6 h-6" />
+            <img src={reppetImg} alt="Repp" className="w-8 h-8 rounded-lg" />
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
           <div className="flex items-center justify-center gap-6 text-sm">

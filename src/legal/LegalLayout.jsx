@@ -54,7 +54,7 @@ export default function LegalLayout({ title, lastUpdated, children }) {
       <footer className="py-8 px-6">
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <img src="/favicon.svg" alt="Repp" className="w-6 h-6" />
+            <img src={reppetImg} alt="Repp" className="w-8 h-8 rounded-lg" />
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
           <div className="flex items-center gap-6 text-sm">
