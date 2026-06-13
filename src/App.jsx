@@ -300,6 +300,12 @@ function App() {
               Política de Privacidad
             </a>
             <a
+              href="/support"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              Soporte
+            </a>
+            <a
               href="/terms-and-conditions"
               className="text-gray-400 hover:text-white transition-colors"
             >

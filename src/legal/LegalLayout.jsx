@@ -57,9 +57,12 @@ export default function LegalLayout({ title, lastUpdated, children }) {
             <img src={reppetImg} alt="Repp" className="w-8 h-8 rounded-lg" />
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
-          <div className="flex items-center gap-6 text-sm">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
             <a href="/privacy-policy" className="text-gray-500 hover:text-white transition-colors">
               Privacidad
+            </a>
+            <a href="/support" className="text-gray-500 hover:text-white transition-colors">
+              Soporte
             </a>
             <a href="/terms-and-conditions" className="text-gray-500 hover:text-white transition-colors">
               Términos

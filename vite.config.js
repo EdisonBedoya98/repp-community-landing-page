@@ -47,6 +47,7 @@ export default defineConfig({
       input: {
         main: resolve(root, 'index.html'),
         privacyPolicy: resolve(root, 'privacy-policy.html'),
+        support: resolve(root, 'support.html'),
         termsAndConditions: resolve(root, 'terms-and-conditions.html'),
       },
     },
