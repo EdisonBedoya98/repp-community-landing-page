@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "badge": "Coming soon",
+    "headline1": "Train",
+    "headline2": "with",
+    "headline3": "Repp",
+    "description": "Plan your week, log every set and rep, and track your progress. The fitness app that adapts to you."
+  },
+  "features": {
+    "titleStart": "Everything to",
+    "titleMiddle": "train",
+    "titleEnd": "better",
+    "subtitle": "Features designed so you can focus on what matters: your training.",
+    "items": {
+      "weeklyPlan": {
+        "title": "Weekly Plan",
+        "description": "Organize your weekly workouts with a calendar view. Mark your check-ins and keep your streak going."
+      },
+      "exerciseLog": {
+        "title": "Exercise Log",
+        "description": "Log sets, reps and weight for every exercise. Visualize the muscles you're working."
+      },
+      "reusableRoutines": {
+        "title": "Reusable Routines",
+        "description": "Create and save your favorite routines. Start them with one tap whenever you want to repeat them."
+      },
+      "progressTracking": {
+        "title": "Progress Tracking",
+        "description": "See your training history, streak and stats. All in your profile."
+      },
+      "customizable": {
+        "title": "Customizable",
+        "description": "Set your goal, level, equipment and training days to fit you."
+      },
+      "timer": {
+        "title": "Built-in Timer",
+        "description": "Rest timer between sets to keep your session's intensity up."
+      }
+    }
+  },
+  "cta": {
+    "titleStart": "Start",
+    "titleEnd": "today",
+    "description": "Download the app and take your training to the next level. Free."
+  }
+}

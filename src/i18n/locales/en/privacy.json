@@ -1,0 +1,91 @@
+{
+  "title": "Privacy Policy",
+  "lastUpdated": "April 27, 2026",
+  "intro1": "At <strong>Repp</strong> (\"we\", \"us\", \"our\" or \"the app\") we respect your privacy and are committed to protecting it. This Privacy Policy describes what information we collect when you use the Repp mobile application and related services (collectively, the \"Service\"), how we use it, who we share it with, and the rights you have over it.",
+  "intro2": "By creating an account or using the Service you accept the practices described in this Policy. If you do not agree, please do not use the app.",
+  "section1": {
+    "heading": "1. Information we collect",
+    "sub1Heading": "1.1 Account information",
+    "sub1Body": "When you create an account we may collect your name, email address, password (stored encrypted) and, optionally, a profile picture and date of birth.",
+    "sub2Heading": "1.2 Profile and preferences information",
+    "sub2Body": "To personalize your experience, we store the data you provide yourself, such as your goal (lose fat, gain mass, maintain), experience level, available equipment, training days per week, body weight, height and other optional metrics.",
+    "sub3Heading": "1.3 Training data",
+    "sub3Body": "We collect the information you generate by using the Service, including:",
+    "sub3List": [
+      "Created routines, templates and selected exercises.",
+      "Sets, reps, weight lifted and duration of each workout.",
+      "Session history, streak, weekly check-ins and personal notes.",
+      "Configured rest times and timer usage."
+    ],
+    "sub4Heading": "1.4 Technical and usage information",
+    "sub4Body": "We automatically collect information about your device (model, operating system, language), unique install identifiers, approximate IP address, crash logs and usage events (screens visited, features used) to maintain and improve the Service."
+  },
+  "section2": {
+    "heading": "2. How we use your information",
+    "body": "We use the collected information to:",
+    "list": [
+      "Provide, operate and maintain the Service.",
+      "Personalize your routines, recommendations and statistics.",
+      "Sync your data across devices when you sign in.",
+      "Diagnose technical issues, prevent fraud and improve stability.",
+      "Communicate with you about changes, updates or support.",
+      "Comply with applicable legal obligations."
+    ]
+  },
+  "section3": {
+    "heading": "3. Legal basis for processing",
+    "body": "We process your personal data based on (a) the <strong>performance of the contract</strong> you accept by using the Service; (b) your <strong>consent</strong>, when required; (c) our <strong>legitimate interest</strong> in maintaining and improving the app; and (d) the <strong>compliance with legal obligations</strong> applicable to us."
+  },
+  "section4": {
+    "heading": "4. How we share your information",
+    "body": "<strong>We do not sell your personal data.</strong> We only share information in the following cases:",
+    "list": [
+      "<strong>Service providers</strong> that help us operate the app (cloud hosting, analytics, error monitoring, authentication), under confidentiality and data processing agreements.",
+      "<strong>Legal compliance:</strong> when required by law, court order or to protect our rights, yours or public safety.",
+      "<strong>Corporate transfers:</strong> in case of merger, acquisition or sale of assets, your data may be transferred to the successor, maintaining the protections of this Policy.",
+      "<strong>With your explicit consent,</strong> in any other case."
+    ]
+  },
+  "section5": {
+    "heading": "5. Storage and security",
+    "body1": "Your data is stored on servers managed by recognized industry providers. We apply reasonable technical and organizational measures to protect it against unauthorized access, loss or alteration, including encryption in transit (TLS) and at rest when possible.",
+    "body2": "No system is 100% secure. We recommend using a strong password and keeping your device up to date."
+  },
+  "section6": {
+    "heading": "6. Data retention",
+    "body": "We keep your information while your account is active or for the time necessary to fulfill the purposes described in this Policy. When you delete your account, we will delete or anonymize your personal data within a reasonable period, unless the law requires us to keep it."
+  },
+  "section7": {
+    "heading": "7. Your rights",
+    "body1": "Depending on your jurisdiction, you can exercise the following rights:",
+    "list": [
+      "<strong>Access:</strong> request a copy of your personal data.",
+      "<strong>Rectification:</strong> correct inaccurate or outdated information.",
+      "<strong>Deletion:</strong> request the deletion of your account and associated data.",
+      "<strong>Portability:</strong> receive your data in a structured format.",
+      "<strong>Objection or limitation</strong> to processing in certain cases.",
+      "<strong>Withdraw consent</strong> at any time."
+    ],
+    "body2": "To exercise these rights write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>. We will respond within the applicable legal timeframes."
+  },
+  "section8": {
+    "heading": "8. Third-party services",
+    "body": "The app may use third-party services for authentication, storage, analytics and notifications. These services only receive the data necessary to fulfill their function and are subject to their own privacy policies."
+  },
+  "section9": {
+    "heading": "9. Children's privacy",
+    "body": "The Service is not directed to minors under 13 (or the minimum age applicable in your jurisdiction). We do not knowingly collect personal data from minors. If you believe a minor has provided us with information, contact us to delete it."
+  },
+  "section10": {
+    "heading": "10. International transfers",
+    "body": "Your data may be processed in countries other than yours. When this happens, we apply appropriate safeguards (such as standard contractual clauses) to protect your information in accordance with applicable law."
+  },
+  "section11": {
+    "heading": "11. Changes to this Policy",
+    "body": "We may update this Policy to reflect changes in the Service or the law. We will publish the updated version on this page and, if the changes are material, we will notify within the app or by email. The \"Last updated\" date at the top indicates when the current version came into effect."
+  },
+  "section12": {
+    "heading": "12. Contact",
+    "body": "If you have questions about this Privacy Policy or about the processing of your data, write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>."
+  }
+}

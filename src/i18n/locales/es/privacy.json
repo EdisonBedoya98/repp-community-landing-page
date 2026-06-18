@@ -1,0 +1,91 @@
+{
+  "title": "Política de Privacidad",
+  "lastUpdated": "27 de abril de 2026",
+  "intro1": "En <strong>Repp</strong> (\"nosotros\", \"nuestro\" o \"la app\") respetamos tu privacidad y nos comprometemos a protegerla. Esta Política de Privacidad describe qué información recopilamos cuando utilizas la aplicación móvil Repp y los servicios relacionados (en conjunto, el \"Servicio\"), cómo la usamos, con quién la compartimos y los derechos que tienes sobre ella.",
+  "intro2": "Al crear una cuenta o utilizar el Servicio aceptas las prácticas descritas en esta Política. Si no estás de acuerdo, por favor no utilices la app.",
+  "section1": {
+    "heading": "1. Información que recopilamos",
+    "sub1Heading": "1.1 Información de cuenta",
+    "sub1Body": "Cuando creas una cuenta podemos recopilar tu nombre, dirección de correo electrónico, contraseña (almacenada de forma cifrada) y, opcionalmente, una foto de perfil y fecha de nacimiento.",
+    "sub2Heading": "1.2 Información de perfil y preferencias",
+    "sub2Body": "Para personalizar tu experiencia, almacenamos los datos que tú mismo proporcionas, como tu objetivo (perder grasa, ganar masa, mantener), nivel de experiencia, equipamiento disponible, días de entrenamiento por semana, peso corporal, altura y otras métricas opcionales.",
+    "sub3Heading": "1.3 Datos de entrenamiento",
+    "sub3Body": "Recopilamos la información que tú generas al utilizar el Servicio, incluyendo:",
+    "sub3List": [
+      "Rutinas creadas, plantillas y ejercicios seleccionados.",
+      "Series, repeticiones, peso levantado y duración de cada entrenamiento.",
+      "Historial de sesiones, racha, check-ins semanales y notas personales.",
+      "Tiempos de descanso configurados y uso del temporizador."
+    ],
+    "sub4Heading": "1.4 Información técnica y de uso",
+    "sub4Body": "Recopilamos automáticamente información sobre tu dispositivo (modelo, sistema operativo, idioma), identificadores únicos de instalación, dirección IP aproximada, registros de fallos y eventos de uso (pantallas visitadas, funciones utilizadas) para mantener y mejorar el Servicio."
+  },
+  "section2": {
+    "heading": "2. Cómo usamos tu información",
+    "body": "Utilizamos la información recopilada para:",
+    "list": [
+      "Proveer, operar y mantener el Servicio.",
+      "Personalizar tus rutinas, recomendaciones y estadísticas.",
+      "Sincronizar tus datos entre dispositivos cuando inicias sesión.",
+      "Diagnosticar problemas técnicos, prevenir fraudes y mejorar la estabilidad.",
+      "Comunicarnos contigo sobre cambios, actualizaciones o soporte.",
+      "Cumplir obligaciones legales aplicables."
+    ]
+  },
+  "section3": {
+    "heading": "3. Base legal para el tratamiento",
+    "body": "Tratamos tus datos personales con base en (a) la <strong>ejecución del contrato</strong> que aceptas al utilizar el Servicio; (b) tu <strong>consentimiento</strong>, cuando es requerido; (c) nuestro <strong>interés legítimo</strong> en mantener y mejorar la app; y (d) el <strong>cumplimiento de obligaciones legales</strong> que nos sean aplicables."
+  },
+  "section4": {
+    "heading": "4. Cómo compartimos tu información",
+    "body": "<strong>No vendemos tus datos personales.</strong> Solo compartimos información en los siguientes casos:",
+    "list": [
+      "<strong>Proveedores de servicio</strong> que nos ayudan a operar la app (alojamiento en la nube, análisis, monitoreo de errores, autenticación), bajo acuerdos de confidencialidad y tratamiento de datos.",
+      "<strong>Cumplimiento legal:</strong> cuando sea requerido por ley, orden judicial o para proteger nuestros derechos, los tuyos o la seguridad pública.",
+      "<strong>Transferencias corporativas:</strong> en caso de fusión, adquisición o venta de activos, tus datos pueden transferirse al sucesor, manteniendo las protecciones de esta Política.",
+      "<strong>Con tu consentimiento explícito,</strong> en cualquier otro caso."
+    ]
+  },
+  "section5": {
+    "heading": "5. Almacenamiento y seguridad",
+    "body1": "Tus datos se almacenan en servidores gestionados por proveedores reconocidos en la industria. Aplicamos medidas técnicas y organizativas razonables para protegerlos contra accesos no autorizados, pérdida o alteración, incluyendo cifrado en tránsito (TLS) y en reposo cuando es posible.",
+    "body2": "Ningún sistema es 100% seguro. Te recomendamos usar una contraseña robusta y mantener actualizado tu dispositivo."
+  },
+  "section6": {
+    "heading": "6. Retención de datos",
+    "body": "Conservamos tu información mientras tu cuenta esté activa o el tiempo necesario para cumplir con los fines descritos en esta Política. Cuando elimines tu cuenta, borraremos o anonimizaremos tus datos personales en un plazo razonable, salvo que la ley exija conservarlos."
+  },
+  "section7": {
+    "heading": "7. Tus derechos",
+    "body1": "Dependiendo de tu jurisdicción, puedes ejercer los siguientes derechos:",
+    "list": [
+      "<strong>Acceso:</strong> solicitar una copia de tus datos personales.",
+      "<strong>Rectificación:</strong> corregir información inexacta o desactualizada.",
+      "<strong>Eliminación:</strong> solicitar el borrado de tu cuenta y datos asociados.",
+      "<strong>Portabilidad:</strong> recibir tus datos en un formato estructurado.",
+      "<strong>Oposición o limitación</strong> al tratamiento en ciertos casos.",
+      "<strong>Retirar el consentimiento</strong> en cualquier momento."
+    ],
+    "body2": "Para ejercer estos derechos escríbenos a <a href=\"mailto:support@repp.community\">support@repp.community</a>. Responderemos dentro de los plazos legales aplicables."
+  },
+  "section8": {
+    "heading": "8. Servicios de terceros",
+    "body": "La app puede utilizar servicios de terceros para autenticación, almacenamiento, análisis y notificaciones. Estos servicios solo reciben los datos necesarios para cumplir su función y están sujetos a sus propias políticas de privacidad."
+  },
+  "section9": {
+    "heading": "9. Privacidad de menores",
+    "body": "El Servicio no está dirigido a menores de 13 años (o de la edad mínima aplicable en tu jurisdicción). No recopilamos a sabiendas datos personales de menores. Si crees que un menor nos ha proporcionado información, contáctanos para eliminarla."
+  },
+  "section10": {
+    "heading": "10. Transferencias internacionales",
+    "body": "Tus datos pueden ser procesados en países distintos al tuyo. Cuando esto ocurra, aplicamos salvaguardas adecuadas (como cláusulas contractuales tipo) para proteger tu información de acuerdo con la legislación aplicable."
+  },
+  "section11": {
+    "heading": "11. Cambios a esta Política",
+    "body": "Podemos actualizar esta Política para reflejar cambios en el Servicio o en la ley. Publicaremos la versión actualizada en esta página y, si los cambios son materiales, notificaremos dentro de la app o por correo electrónico. La fecha de \"Última actualización\" en la parte superior indica cuándo entró en vigor la versión actual."
+  },
+  "section12": {
+    "heading": "12. Contacto",
+    "body": "Si tienes preguntas sobre esta Política de Privacidad o sobre el tratamiento de tus datos, escríbenos a <a href=\"mailto:support@repp.community\">support@repp.community</a>."
+  }
+}

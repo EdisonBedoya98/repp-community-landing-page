@@ -1,0 +1,94 @@
+{
+  "title": "Terms and Conditions",
+  "lastUpdated": "April 27, 2026",
+  "intro": "Welcome to <strong>Repp</strong>. These Terms and Conditions (the \"Terms\") govern your access to and use of the Repp mobile application and related services (collectively, the \"Service\"). By downloading, installing, registering or using the Service, you accept these Terms in full. If you do not agree, do not use the Service.",
+  "section1": {
+    "heading": "1. Acceptance of the Terms",
+    "body": "These Terms constitute a legally binding agreement between you (\"User\" or \"you\") and Repp. If you use the Service on behalf of an organization, you represent that you are authorized to accept the Terms on its behalf."
+  },
+  "section2": {
+    "heading": "2. Eligibility and account",
+    "body": "To use the Service you must be at least 13 years old (or the minimum legal age in your jurisdiction) and have the legal capacity to enter into a contract. You are responsible for:",
+    "list": [
+      "Providing truthful information and keeping it up to date.",
+      "Maintaining the confidentiality of your password.",
+      "All activity that occurs under your account.",
+      "Notifying us immediately of any unauthorized use."
+    ]
+  },
+  "section3": {
+    "heading": "3. License of use",
+    "body": "Subject to compliance with these Terms, we grant you a limited, personal, non-exclusive, non-transferable and revocable license to download, install and use the app on devices you control, exclusively for personal and non-commercial purposes."
+  },
+  "section4": {
+    "heading": "4. User conduct",
+    "body": "You agree not to:",
+    "list": [
+      "Use the Service in an illegal or fraudulent way or in a way that violates third party rights.",
+      "Reverse engineer, decompile, disassemble or attempt to extract the source code, except where expressly permitted by law.",
+      "Interfere with the operation of the Service, circumvent security measures or access unauthorized areas.",
+      "Upload or transmit viruses, malware, illegal, offensive, defamatory or intellectual property infringing content.",
+      "Use bots, scrapers or automated means to access the Service without our consent.",
+      "Resell, sublicense or commercially exploit the Service without authorization."
+    ]
+  },
+  "section5": {
+    "heading": "5. User content",
+    "body1": "You are the sole owner of the content you generate in the Service (routines, notes, training logs). By using the Service, you grant us a worldwide, royalty-free and limited license to store, process and display such content for the sole purpose of operating and improving the app.",
+    "body2": "You are responsible for the content you upload and represent that you have all the necessary rights over it."
+  },
+  "section6": {
+    "heading": "6. Intellectual property",
+    "body": "The Service, including its software, design, logos, trademarks, texts, graphics and other elements, is the property of Repp or its licensors and is protected by intellectual property laws. These Terms do not grant you any rights over our trademarks or the look and feel of the app."
+  },
+  "section7": {
+    "heading": "7. Health and disclaimer",
+    "body1": "<strong>Repp is not a health professional and the information provided in the Service is for informational and personal tracking purposes only.</strong> Before starting any training program, especially if you have medical conditions, injuries or are pregnant, consult with a qualified health professional.",
+    "body2": "You are solely responsible for evaluating your physical condition, performing the exercises with proper technique and for the decisions you make based on the content of the app. Use of the Service is at your own risk."
+  },
+  "section8": {
+    "heading": "8. In-app services and purchases",
+    "body": "Some features of the Service may be offered for free and others through subscription or single purchase. Prices, billing and renewal terms are shown at the time of purchase and are processed through the corresponding app store (App Store, Google Play). Refund requests are governed by the policies of those stores."
+  },
+  "section9": {
+    "heading": "9. Availability and modifications of the Service",
+    "body": "We strive to keep the Service available, but we do not guarantee uninterrupted operation. We may modify, suspend or discontinue features, in whole or in part, at any time, with or without notice. We will not be liable to you or to third parties for such modifications."
+  },
+  "section10": {
+    "heading": "10. Third-party services",
+    "body": "The Service may contain links or integrations with third-party services (app stores, authentication providers, analytics). We do not control those services and are not responsible for their content, policies or practices."
+  },
+  "section11": {
+    "heading": "11. Disclaimer of warranties",
+    "body": "The Service is provided <strong>\"as is\" and \"as available\"</strong>, without warranties of any kind, express or implied, including, without limitation, warranties of merchantability, fitness for a particular purpose, non-infringement or uninterrupted availability. We do not guarantee that the Service will be error-free or meet your expectations."
+  },
+  "section12": {
+    "heading": "12. Limitation of liability",
+    "body1": "To the maximum extent permitted by applicable law, in no event shall Repp, its directors, employees or affiliates be liable for indirect, incidental, special, consequential or punitive damages, including loss of data, lost profits or personal injury arising from the use or inability to use the Service.",
+    "body2": "Our total cumulative liability to you for any claim related to the Service will not exceed the amount you have paid, if any, during the twelve (12) months prior to the event giving rise to the claim."
+  },
+  "section13": {
+    "heading": "13. Indemnification",
+    "body": "You agree to indemnify and hold harmless Repp and its affiliates from any claim, damage, loss or expense (including reasonable legal fees) arising from your use of the Service, your content, your breach of these Terms or your violation of third party rights."
+  },
+  "section14": {
+    "heading": "14. Suspension and termination",
+    "body": "We may suspend or terminate your access to the Service at any time, with or without cause, especially if you breach these Terms. You may stop using the Service at any time by deleting your account from the app or by contacting us. Provisions that by their nature should survive termination will do so."
+  },
+  "section15": {
+    "heading": "15. Changes to the Terms",
+    "body": "We may modify these Terms at any time. We will publish the updated version on this page and, if the changes are material, we will notify within the app or by email. Continued use of the Service after the effective date constitutes your acceptance of the modified Terms."
+  },
+  "section16": {
+    "heading": "16. Governing law and jurisdiction",
+    "body": "These Terms will be governed by and interpreted in accordance with the laws of the user's main country of residence, without prejudice to the mandatory consumer rights that apply. Any dispute will be submitted to the competent courts of such jurisdiction."
+  },
+  "section17": {
+    "heading": "17. General provisions",
+    "body": "If any provision of these Terms is held invalid or unenforceable, the remaining provisions will remain in force. Our failure to exercise a right does not constitute a waiver of it. These Terms, together with the Privacy Policy, constitute the entire agreement between you and Repp regarding the Service."
+  },
+  "section18": {
+    "heading": "18. Contact",
+    "body": "If you have questions about these Terms, write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>."
+  }
+}

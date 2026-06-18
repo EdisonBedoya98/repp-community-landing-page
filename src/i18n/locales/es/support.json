@@ -1,0 +1,32 @@
+{
+  "title": "Soporte",
+  "lastUpdated": "13 de junio de 2026",
+  "intro": "Estamos aquí para ayudarte con <strong>Repp</strong>. Si tienes problemas con tu cuenta, entrenamientos, acceso a la app, datos personales o cualquier otra duda, escríbenos a <a href=\"mailto:support@repp.community\">support@repp.community</a>.",
+  "contact": {
+    "heading": "Contacto",
+    "body1": "Para recibir ayuda, envíanos un correo a <a href=\"mailto:support@repp.community\">support@repp.community</a> con una descripción del problema. Si puedes, incluye el correo asociado a tu cuenta, el modelo de tu dispositivo, la versión de iOS o Android y capturas de pantalla relevantes.",
+    "body2": "Intentamos responder dentro de 2 a 3 días hábiles. Los tiempos pueden variar según el volumen de solicitudes."
+  },
+  "topics": {
+    "heading": "Temas frecuentes",
+    "list": [
+      "Problemas para iniciar sesión o recuperar acceso a tu cuenta.",
+      "Dudas sobre rutinas, historial de entrenamientos o progreso.",
+      "Errores técnicos, fallos de sincronización o comportamiento inesperado.",
+      "Solicitudes relacionadas con privacidad, datos personales o eliminación de cuenta.",
+      "Comentarios, sugerencias o reportes para mejorar la app."
+    ]
+  },
+  "privacy": {
+    "heading": "Privacidad y datos",
+    "body": "Si quieres solicitar acceso, corrección o eliminación de tus datos personales, escríbenos a <a href=\"mailto:support@repp.community\">support@repp.community</a>. También puedes revisar nuestra <a href=\"/privacy-policy\">Política de Privacidad</a> para conocer cómo recopilamos, usamos y protegemos tu información."
+  },
+  "purchases": {
+    "heading": "Compras y suscripciones",
+    "body": "Si tu solicitud está relacionada con pagos, compras dentro de la app o suscripciones, incluye cualquier detalle útil para ubicar el caso. Los reembolsos y la facturación pueden depender de las políticas de la tienda donde realizaste la compra."
+  },
+  "legal": {
+    "heading": "Información legal",
+    "body": "Para conocer las reglas de uso de Repp, revisa nuestros <a href=\"/terms-and-conditions\">Términos y Condiciones</a>."
+  }
+}

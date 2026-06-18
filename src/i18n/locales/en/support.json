@@ -1,0 +1,32 @@
+{
+  "title": "Support",
+  "lastUpdated": "June 13, 2026",
+  "intro": "We're here to help you with <strong>Repp</strong>. If you have issues with your account, workouts, app access, personal data or any other question, write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>.",
+  "contact": {
+    "heading": "Contact",
+    "body1": "To get help, send us an email at <a href=\"mailto:support@repp.community\">support@repp.community</a> with a description of the issue. If you can, include the email associated with your account, your device model, the iOS or Android version and relevant screenshots.",
+    "body2": "We try to respond within 2 to 3 business days. Times may vary depending on the volume of requests."
+  },
+  "topics": {
+    "heading": "Frequent topics",
+    "list": [
+      "Issues signing in or recovering access to your account.",
+      "Questions about routines, training history or progress.",
+      "Technical errors, sync failures or unexpected behavior.",
+      "Requests related to privacy, personal data or account deletion.",
+      "Comments, suggestions or reports to improve the app."
+    ]
+  },
+  "privacy": {
+    "heading": "Privacy and data",
+    "body": "If you want to request access, correction or deletion of your personal data, write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>. You can also review our <a href=\"/privacy-policy\">Privacy Policy</a> to learn how we collect, use and protect your information."
+  },
+  "purchases": {
+    "heading": "Purchases and subscriptions",
+    "body": "If your request is related to payments, in-app purchases or subscriptions, include any useful detail to locate the case. Refunds and billing may depend on the policies of the store where you made the purchase."
+  },
+  "legal": {
+    "heading": "Legal information",
+    "body": "To learn the rules for using Repp, review our <a href=\"/terms-and-conditions\">Terms and Conditions</a>."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "badge": "Proximamente disponible",
+    "headline1": "Entrena",
+    "headline2": "con",
+    "headline3": "Repp",
+    "description": "Planifica tu semana, registra cada serie y rep, y sigue tu progreso. La app de fitness que se adapta a ti."
+  },
+  "features": {
+    "titleStart": "Todo para",
+    "titleMiddle": "entrenar",
+    "titleEnd": "mejor",
+    "subtitle": "Funciones pensadas para que te enfoques en lo que importa: tu entrenamiento.",
+    "items": {
+      "weeklyPlan": {
+        "title": "Plan Semanal",
+        "description": "Organiza tus entrenos de la semana con vista de calendario. Marca tus check-ins y mantiene tu racha."
+      },
+      "exerciseLog": {
+        "title": "Registro de Ejercicios",
+        "description": "Registra series, repeticiones y peso para cada ejercicio. Visualiza los musculos que trabajas."
+      },
+      "reusableRoutines": {
+        "title": "Rutinas Reutilizables",
+        "description": "Crea y guarda tus rutinas favoritas. Inicialas con un toque cuando quieras repetirlas."
+      },
+      "progressTracking": {
+        "title": "Seguimiento de Progreso",
+        "description": "Mira tu historial de entrenamiento, racha y estadisticas. Todo en tu perfil."
+      },
+      "customizable": {
+        "title": "Personalizable",
+        "description": "Configura tu objetivo, nivel, equipamiento y dias de entrenamiento a tu medida."
+      },
+      "timer": {
+        "title": "Timer Integrado",
+        "description": "Temporizador de descanso entre series para mantener la intensidad de tu sesion."
+      }
+    }
+  },
+  "cta": {
+    "titleStart": "Empieza",
+    "titleEnd": "hoy",
+    "description": "Descarga la app y lleva tu entrenamiento al siguiente nivel. Gratis."
+  }
+}

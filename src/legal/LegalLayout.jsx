@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next"
 import reppetImg from "../assets/Reppet.png"
+import LanguageSwitcher from "../i18n/LanguageSwitcher.jsx"
+import useLangHref from "../i18n/useLangHref.js"
 
 function Sparkle({ className = "" }) {
   return (
@@ -9,20 +12,25 @@ function Sparkle({ className = "" }) {
 }
 
 export default function LegalLayout({ title, lastUpdated, children }) {
+  const { t } = useTranslation("common")
+  const langHref = useLangHref()
   return (
     <div className="min-h-screen font-sans flex flex-col">
       <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-lg border-b border-white/5">
         <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2">
+          <a href={langHref("/")} className="flex items-center gap-2">
             <img src={reppetImg} alt="Repp" className="w-8 h-8 rounded-lg" />
             <span className="text-xl font-extrabold uppercase tracking-wider">Repp</span>
           </a>
-          <a
-            href="/"
-            className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors"
-          >
-            Volver al inicio
-          </a>
+          <div className="flex items-center gap-4">
+            <LanguageSwitcher />
+            <a
+              href={langHref("/")}
+              className="hidden sm:inline text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors"
+            >
+              {t("nav.backHome")}
+            </a>
+          </div>
         </div>
       </nav>
 
@@ -39,7 +47,7 @@ export default function LegalLayout({ title, lastUpdated, children }) {
             </h1>
             {lastUpdated && (
               <p className="text-sm text-gray-500 uppercase tracking-widest">
-                Última actualización: {lastUpdated}
+                {t("legal.lastUpdated")} {lastUpdated}
               </p>
             )}
           </div>
@@ -58,14 +66,14 @@ export default function LegalLayout({ title, lastUpdated, children }) {
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
-            <a href="/privacy-policy" className="text-gray-500 hover:text-white transition-colors">
-              Privacidad
+            <a href={langHref("/privacy-policy")} className="text-gray-500 hover:text-white transition-colors">
+              {t("footer.privacyShort")}
             </a>
-            <a href="/support" className="text-gray-500 hover:text-white transition-colors">
-              Soporte
+            <a href={langHref("/support")} className="text-gray-500 hover:text-white transition-colors">
+              {t("footer.supportShort")}
             </a>
-            <a href="/terms-and-conditions" className="text-gray-500 hover:text-white transition-colors">
-              Términos
+            <a href={langHref("/terms-and-conditions")} className="text-gray-500 hover:text-white transition-colors">
+              {t("footer.termsShort")}
             </a>
           </div>
           <p className="text-sm text-gray-500">

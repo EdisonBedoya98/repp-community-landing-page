@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "features": "Features",
+    "download": "Download",
+    "getApp": "Get App",
+    "backHome": "Back to home"
+  },
+  "footer": {
+    "privacyShort": "Privacy",
+    "supportShort": "Support",
+    "termsShort": "Terms",
+    "privacy": "Privacy Policy",
+    "support": "Support",
+    "terms": "Terms and Conditions",
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "label": "Language",
+    "es": "Español",
+    "en": "English",
+    "switchTo": "Cambiar a Español"
+  },
+  "appStore": {
+    "downloadOn": "Download on the",
+    "appStore": "App Store"
+  },
+  "playStore": {
+    "downloadOn": "Get it on",
+    "playStore": "Google Play"
+  },
+  "comingSoonModal": {
+    "title": "Coming Soon!",
+    "description": "We're working hard to bring Repp to your devices. Stay tuned!",
+    "button": "Got it"
+  },
+  "legal": {
+    "lastUpdated": "Last updated:"
+  }
+}

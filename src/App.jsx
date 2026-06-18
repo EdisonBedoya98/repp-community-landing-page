@@ -1,5 +1,8 @@
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 import reppetImg from "./assets/Reppet.png"
+import LanguageSwitcher from "./i18n/LanguageSwitcher.jsx"
+import useLangHref from "./i18n/useLangHref.js"
 
 function Sparkle({ className = "" }) {
   return (
@@ -10,6 +13,7 @@ function Sparkle({ className = "" }) {
 }
 
 function AppStoreBadge({ onClick }) {
+  const { t } = useTranslation("common")
   return (
     <button
       onClick={onClick}
@@ -20,14 +24,15 @@ function AppStoreBadge({ onClick }) {
         <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
       </svg>
       <div className="text-left">
-        <div className="text-xs leading-none opacity-80">Descargalo en el</div>
-        <div className="text-xl font-semibold leading-tight">App Store</div>
+        <div className="text-xs leading-none opacity-80">{t("appStore.downloadOn")}</div>
+        <div className="text-xl font-semibold leading-tight">{t("appStore.appStore")}</div>
       </div>
     </button>
   )
 }
 
 function PlayStoreBadge({ onClick }) {
+  const { t } = useTranslation("common")
   return (
     <button
       onClick={onClick}
@@ -41,8 +46,8 @@ function PlayStoreBadge({ onClick }) {
         <path fill="#EA4335" d="M3.609 22.186L14.177 12l3.264 3.528-11.164 6.11c-.488.281-.997.362-1.445.362-.494 0-.922-.173-1.223-.514v-1.3z" />
       </svg>
       <div className="text-left">
-        <div className="text-xs leading-none opacity-80">Descargar en</div>
-        <div className="text-xl font-semibold leading-tight">Google Play</div>
+        <div className="text-xs leading-none opacity-80">{t("playStore.downloadOn")}</div>
+        <div className="text-xl font-semibold leading-tight">{t("playStore.playStore")}</div>
       </div>
     </button>
   )
@@ -61,6 +66,7 @@ function FeatureCard({ icon, title, description }) {
 }
 
 function ComingSoonModal({ isOpen, onClose }) {
+  const { t } = useTranslation("common")
   if (!isOpen) return null;
 
   return (
@@ -69,17 +75,17 @@ function ComingSoonModal({ isOpen, onClose }) {
       <div className="relative bg-[#111] border border-white/10 rounded-3xl p-8 max-w-sm w-full text-center">
         <Sparkle className="w-8 h-8 text-lime mx-auto mb-4" />
         <h3 className="text-3xl font-black uppercase tracking-tighter mb-2">
-          ¡Próximamente!
+          {t("comingSoonModal.title")}
         </h3>
         <p className="text-gray-400 mb-6">
-          Estamos trabajando para llevar Repp a tus dispositivos. ¡Mantente atento!
+          {t("comingSoonModal.description")}
         </p>
         <button
           onClick={onClose}
           type="button"
           className="bg-lime text-black font-bold uppercase tracking-wider px-6 py-3 rounded-xl w-full hover:bg-lime/90 transition-colors"
         >
-          Entendido
+          {t("comingSoonModal.button")}
         </button>
       </div>
     </div>
@@ -88,6 +94,8 @@ function ComingSoonModal({ isOpen, onClose }) {
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false)
+  const { t } = useTranslation(["landing", "common"])
+  const langHref = useLangHref()
 
   const handleOpenModal = (e) => {
     e.preventDefault();
@@ -105,15 +113,19 @@ function App() {
             <span className="text-xl font-extrabold uppercase tracking-wider">Repp</span>
           </div>
           <div className="hidden sm:flex items-center gap-8">
-            <a href="#features" className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors">Funciones</a>
-            <a href="#cta" className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors">Descargar</a>
+            <a href="#features" className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors">{t("common:nav.features")}</a>
+            <a href="#cta" className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors">{t("common:nav.download")}</a>
+            <LanguageSwitcher />
             <button
               onClick={handleOpenModal}
               type="button"
               className="text-sm bg-lime text-black px-5 py-2 rounded-full font-bold uppercase tracking-wider hover:bg-lime-dark transition-colors"
             >
-              Obtener App
+              {t("common:nav.getApp")}
             </button>
+          </div>
+          <div className="flex sm:hidden">
+            <LanguageSwitcher />
           </div>
         </div>
       </nav>
@@ -144,15 +156,15 @@ function App() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 text-lime px-4 py-1.5 rounded-full text-sm font-medium mb-8">
               <span className="w-2 h-2 bg-lime rounded-full animate-pulse" />
-              Proximamente disponible
+              {t("hero.badge")}
             </div>
 
             {/* Main headline */}
             <h1 className="text-7xl sm:text-[8rem] lg:text-[10rem] font-black uppercase leading-[0.85] tracking-tighter mb-8">
-              <span className="text-lime block">Entrena</span>
-              <span className="text-white block">con</span>
+              <span className="text-lime block">{t("hero.headline1")}</span>
+              <span className="text-white block">{t("hero.headline2")}</span>
               <span className="text-white block relative">
-                Repp
+                {t("hero.headline3")}
                 <span className="absolute -right-8 top-0">
                   <Sparkle className="w-6 h-6 text-lime" />
                 </span>
@@ -161,7 +173,7 @@ function App() {
 
             {/* Description */}
             <p className="text-lg text-gray-400 leading-relaxed mb-10 max-w-lg">
-              Planifica tu semana, registra cada serie y rep, y sigue tu progreso. La app de fitness que se adapta a ti.
+              {t("hero.description")}
             </p>
 
             {/* CTA Buttons */}
@@ -194,13 +206,13 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
             <h2 className="text-5xl sm:text-7xl font-black uppercase tracking-tighter mb-4">
-              Todo para{" "}
-              <span className="text-lime">entrenar</span>
+              {t("features.titleStart")}{" "}
+              <span className="text-lime">{t("features.titleMiddle")}</span>
               <br />
-              mejor
+              {t("features.titleEnd")}
             </h2>
             <p className="text-gray-400 max-w-xl text-lg">
-              Funciones pensadas para que te enfoques en lo que importa: tu entrenamiento.
+              {t("features.subtitle")}
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -210,8 +222,8 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg>
               }
-              title="Plan Semanal"
-              description="Organiza tus entrenos de la semana con vista de calendario. Marca tus check-ins y mantiene tu racha."
+              title={t("features.items.weeklyPlan.title")}
+              description={t("features.items.weeklyPlan.description")}
             />
             <FeatureCard
               icon={
@@ -219,8 +231,8 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               }
-              title="Registro de Ejercicios"
-              description="Registra series, repeticiones y peso para cada ejercicio. Visualiza los musculos que trabajas."
+              title={t("features.items.exerciseLog.title")}
+              description={t("features.items.exerciseLog.description")}
             />
             <FeatureCard
               icon={
@@ -228,8 +240,8 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                 </svg>
               }
-              title="Rutinas Reutilizables"
-              description="Crea y guarda tus rutinas favoritas. Inicialas con un toque cuando quieras repetirlas."
+              title={t("features.items.reusableRoutines.title")}
+              description={t("features.items.reusableRoutines.description")}
             />
             <FeatureCard
               icon={
@@ -237,8 +249,8 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               }
-              title="Seguimiento de Progreso"
-              description="Mira tu historial de entrenamiento, racha y estadisticas. Todo en tu perfil."
+              title={t("features.items.progressTracking.title")}
+              description={t("features.items.progressTracking.description")}
             />
             <FeatureCard
               icon={
@@ -246,8 +258,8 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                 </svg>
               }
-              title="Personalizable"
-              description="Configura tu objetivo, nivel, equipamiento y dias de entrenamiento a tu medida."
+              title={t("features.items.customizable.title")}
+              description={t("features.items.customizable.description")}
             />
             <FeatureCard
               icon={
@@ -255,8 +267,8 @@ function App() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               }
-              title="Timer Integrado"
-              description="Temporizador de descanso entre series para mantener la intensidad de tu sesion."
+              title={t("features.items.timer.title")}
+              description={t("features.items.timer.description")}
             />
           </div>
         </div>
@@ -270,10 +282,10 @@ function App() {
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <Sparkle className="w-6 h-6 text-lime mx-auto mb-6" />
           <h2 className="text-5xl sm:text-7xl font-black uppercase tracking-tighter mb-6">
-            Empieza <span className="text-lime">hoy</span>
+            {t("cta.titleStart")} <span className="text-lime">{t("cta.titleEnd")}</span>
           </h2>
           <p className="text-gray-400 mb-10 max-w-lg mx-auto text-lg">
-            Descarga la app y lleva tu entrenamiento al siguiente nivel. Gratis.
+            {t("cta.description")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <AppStoreBadge onClick={handleOpenModal} />
@@ -294,26 +306,26 @@ function App() {
           </div>
           <div className="flex items-center justify-center gap-6 text-sm">
             <a
-              href="/privacy-policy"
+              href={langHref("/privacy-policy")}
               className="text-gray-400 hover:text-white transition-colors"
             >
-              Política de Privacidad
+              {t("common:footer.privacy")}
             </a>
             <a
-              href="/support"
+              href={langHref("/support")}
               className="text-gray-400 hover:text-white transition-colors"
             >
-              Soporte
+              {t("common:footer.support")}
             </a>
             <a
-              href="/terms-and-conditions"
+              href={langHref("/terms-and-conditions")}
               className="text-gray-400 hover:text-white transition-colors"
             >
-              Términos y Condiciones
+              {t("common:footer.terms")}
             </a>
           </div>
           <p className="text-sm text-gray-500 text-center sm:text-right">
-            &copy; {new Date().getFullYear()} Repp. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Repp. {t("common:footer.rights")}
           </p>
         </div>
       </footer>
