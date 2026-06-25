@@ -31,12 +31,15 @@ function AppStoreBadge({ onClick }) {
   )
 }
 
-function PlayStoreBadge({ onClick }) {
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=community.repp.app&pcampaignid=web_share"
+
+function PlayStoreBadge() {
   const { t } = useTranslation("common")
   return (
-    <button
-      onClick={onClick}
-      type="button"
+    <a
+      href={PLAY_STORE_URL}
+      target="_blank"
+      rel="noopener noreferrer"
       className="inline-flex items-center gap-3 bg-black text-white px-6 py-3.5 rounded-xl border border-white/30 hover:border-white/60 transition-colors"
     >
       <svg className="w-8 h-8" viewBox="0 0 24 24">
@@ -49,7 +52,7 @@ function PlayStoreBadge({ onClick }) {
         <div className="text-xs leading-none opacity-80">{t("playStore.downloadOn")}</div>
         <div className="text-xl font-semibold leading-tight">{t("playStore.playStore")}</div>
       </div>
-    </button>
+    </a>
   )
 }
 
@@ -116,13 +119,6 @@ function App() {
             <a href="#features" className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors">{t("common:nav.features")}</a>
             <a href="#cta" className="text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors">{t("common:nav.download")}</a>
             <LanguageSwitcher />
-            <button
-              onClick={handleOpenModal}
-              type="button"
-              className="text-sm bg-lime text-black px-5 py-2 rounded-full font-bold uppercase tracking-wider hover:bg-lime-dark transition-colors"
-            >
-              {t("common:nav.getApp")}
-            </button>
           </div>
           <div className="flex sm:hidden">
             <LanguageSwitcher />
@@ -179,7 +175,7 @@ function App() {
             {/* CTA Buttons */}
             <div className="flex flex-row items-center gap-4 flex-wrap justify-center sm:justify-start">
               <AppStoreBadge onClick={handleOpenModal} />
-              <PlayStoreBadge onClick={handleOpenModal} />
+              <PlayStoreBadge />
             </div>
           </div>
 
@@ -289,7 +285,7 @@ function App() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <AppStoreBadge onClick={handleOpenModal} />
-            <PlayStoreBadge onClick={handleOpenModal} />
+            <PlayStoreBadge />
           </div>
         </div>
       </section>
