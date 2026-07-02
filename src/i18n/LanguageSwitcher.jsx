@@ -21,12 +21,16 @@ export default function LanguageSwitcher({ className = "" }) {
   }
 
   const other = current === "es" ? "en" : "es"
+  const switchLabel = t("language.switchTo", {
+    language: t(`language.${other}`),
+  })
 
   return (
     <button
       onClick={() => switchTo(other)}
       type="button"
-      aria-label={t("language.switchTo")}
+      aria-label={switchLabel}
+      title={switchLabel}
       className={
         "inline-flex items-center gap-1 text-xs uppercase tracking-widest text-gray-400 hover:text-white transition-colors border border-white/10 rounded-full px-3 py-1.5 " +
         className
@@ -45,4 +49,3 @@ export default function LanguageSwitcher({ className = "" }) {
     </button>
   )
 }
-

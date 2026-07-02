@@ -16,8 +16,8 @@
   "language": {
     "label": "Idioma",
     "es": "Español",
-    "en": "English",
-    "switchTo": "Switch to English"
+    "en": "inglés",
+    "switchTo": "Cambiar a {{language}}"
   },
   "appStore": {
     "downloadOn": "Descargalo en el",

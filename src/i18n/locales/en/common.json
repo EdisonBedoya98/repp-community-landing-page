@@ -15,9 +15,9 @@
   },
   "language": {
     "label": "Language",
-    "es": "Español",
+    "es": "Spanish",
     "en": "English",
-    "switchTo": "Cambiar a Español"
+    "switchTo": "Switch to {{language}}"
   },
   "appStore": {
     "downloadOn": "Download on the",

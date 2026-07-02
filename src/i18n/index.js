@@ -13,8 +13,8 @@ import enPrivacy from "./locales/en/privacy.json"
 import enTerms from "./locales/en/terms.json"
 import enSupport from "./locales/en/support.json"
 
-export const SUPPORTED_LANGUAGES = ["es", "en"]
-export const DEFAULT_LANGUAGE = "es"
+export const SUPPORTED_LANGUAGES = ["en", "es"]
+export const DEFAULT_LANGUAGE = "en"
 
 const resources = {
   es: {
@@ -47,14 +47,7 @@ export const detectInitialLanguage = () => {
   if (typeof window === "undefined") return DEFAULT_LANGUAGE
   const fromPath = langFromPath(window.location.pathname)
   if (fromPath) return fromPath
-  try {
-    const stored = window.localStorage.getItem("repp-lang")
-    if (stored) return normalizeLng(stored)
-  } catch {
-    /* ignore */
-  }
-  const nav = window.navigator?.language || DEFAULT_LANGUAGE
-  return normalizeLng(nav)
+  return DEFAULT_LANGUAGE
 }
 
 i18n.use(initReactI18next).init({
@@ -79,19 +72,9 @@ const syncHtmlLang = (lng) => {
   }
 }
 
-const persistLang = (lng) => {
-  try {
-    window.localStorage.setItem("repp-lang", normalizeLng(lng))
-  } catch {
-    /* ignore */
-  }
-}
-
 syncHtmlLang(i18n.resolvedLanguage || i18n.language || DEFAULT_LANGUAGE)
-persistLang(i18n.resolvedLanguage || i18n.language || DEFAULT_LANGUAGE)
 i18n.on("languageChanged", (lng) => {
   syncHtmlLang(lng)
-  persistLang(lng)
 })
 
 export default i18n
