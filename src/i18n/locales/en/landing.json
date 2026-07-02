@@ -3,7 +3,7 @@
     "headline1": "Train",
     "headline2": "with",
     "headline3": "Repp",
-    "description": "Plan your week, log every set and rep, and track your progress. The fitness app that adapts to you."
+    "description": "AI-powered weekly plans, full workout tracking, strength rankings and a community that keeps you motivated. The fitness app that adapts to you."
   },
   "features": {
     "titleStart": "Everything to",
@@ -11,35 +11,35 @@
     "titleEnd": "better",
     "subtitle": "Features designed so you can focus on what matters: your training.",
     "items": {
-      "weeklyPlan": {
-        "title": "Weekly Plan",
-        "description": "Organize your weekly workouts with a calendar view. Mark your check-ins and keep your streak going."
+      "aiPlans": {
+        "title": "AI Weekly Plans",
+        "description": "Generate a personalized weekly plan based on your goal, level, available days and equipment — powered by AI."
       },
-      "exerciseLog": {
-        "title": "Exercise Log",
-        "description": "Log sets, reps and weight for every exercise. Visualize the muscles you're working."
+      "library": {
+        "title": "1500+ Exercises",
+        "description": "A full exercise library with visual guides, filterable by muscle group and equipment. Use ready-made routines or build your own and organize them in folders."
       },
-      "reusableRoutines": {
-        "title": "Reusable Routines",
-        "description": "Create and save your favorite routines. Start them with one tap whenever you want to repeat them."
+      "tracking": {
+        "title": "Workout Tracking",
+        "description": "Log sets, reps and weight with a built-in rest timer. Works offline and syncs automatically when you're back online."
       },
-      "progressTracking": {
-        "title": "Progress Tracking",
-        "description": "See your training history, streak and stats. All in your profile."
+      "progress": {
+        "title": "Progress & Stats",
+        "description": "Charts, personal records, streaks, monthly reports and a muscle heatmap so you can see exactly how you're improving."
       },
-      "customizable": {
-        "title": "Customizable",
-        "description": "Set your goal, level, equipment and training days to fit you."
+      "rankings": {
+        "title": "Strength Rankings",
+        "description": "Earn your Repp Rank and climb the tiers. Compare your strength by muscle group, adjusted to your body weight."
       },
-      "timer": {
-        "title": "Built-in Timer",
-        "description": "Rest timer between sets to keep your session's intensity up."
+      "community": {
+        "title": "Community",
+        "description": "Share your workouts, follow your friends and stay motivated with likes and comments on every session."
       }
     }
   },
   "cta": {
     "titleStart": "Start",
     "titleEnd": "today",
-    "description": "Download the app and take your training to the next level. Free."
+    "description": "Download the app and take your training to the next level. Free to start."
   }
 }

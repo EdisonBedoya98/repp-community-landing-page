@@ -3,7 +3,7 @@
     "headline1": "Entrena",
     "headline2": "con",
     "headline3": "Repp",
-    "description": "Planifica tu semana, registra cada serie y rep, y sigue tu progreso. La app de fitness que se adapta a ti."
+    "description": "Planes semanales con IA, registro completo de tus entrenos, rangos de fuerza y una comunidad que te motiva. La app de fitness que se adapta a ti."
   },
   "features": {
     "titleStart": "Todo para",
@@ -11,35 +11,35 @@
     "titleEnd": "mejor",
     "subtitle": "Funciones pensadas para que te enfoques en lo que importa: tu entrenamiento.",
     "items": {
-      "weeklyPlan": {
-        "title": "Plan Semanal",
-        "description": "Organiza tus entrenos de la semana con vista de calendario. Marca tus check-ins y mantiene tu racha."
+      "aiPlans": {
+        "title": "Planes Semanales con IA",
+        "description": "Genera un plan semanal personalizado según tu objetivo, nivel, días disponibles y equipamiento — impulsado por IA."
       },
-      "exerciseLog": {
-        "title": "Registro de Ejercicios",
-        "description": "Registra series, repeticiones y peso para cada ejercicio. Visualiza los musculos que trabajas."
+      "library": {
+        "title": "1500+ Ejercicios",
+        "description": "Biblioteca completa de ejercicios con guías visuales, filtrable por grupo muscular y equipamiento. Usa rutinas listas o crea las tuyas y organízalas en carpetas."
       },
-      "reusableRoutines": {
-        "title": "Rutinas Reutilizables",
-        "description": "Crea y guarda tus rutinas favoritas. Inicialas con un toque cuando quieras repetirlas."
+      "tracking": {
+        "title": "Registro de Entrenos",
+        "description": "Registra series, repeticiones y peso con temporizador de descanso integrado. Funciona sin conexión y se sincroniza automáticamente."
       },
-      "progressTracking": {
-        "title": "Seguimiento de Progreso",
-        "description": "Mira tu historial de entrenamiento, racha y estadisticas. Todo en tu perfil."
+      "progress": {
+        "title": "Progreso y Estadísticas",
+        "description": "Gráficas, récords personales, rachas, reportes mensuales y mapa muscular para ver exactamente cómo mejoras."
       },
-      "customizable": {
-        "title": "Personalizable",
-        "description": "Configura tu objetivo, nivel, equipamiento y dias de entrenamiento a tu medida."
+      "rankings": {
+        "title": "Rangos de Fuerza",
+        "description": "Gana tu Repp Rank y sube de nivel. Compara tu fuerza por grupo muscular, ajustada a tu peso corporal."
       },
-      "timer": {
-        "title": "Timer Integrado",
-        "description": "Temporizador de descanso entre series para mantener la intensidad de tu sesion."
+      "community": {
+        "title": "Comunidad",
+        "description": "Comparte tus entrenos, sigue a tus amigos y mantente motivado con likes y comentarios en cada sesión."
       }
     }
   },
   "cta": {
     "titleStart": "Empieza",
     "titleEnd": "hoy",
-    "description": "Descarga la app y lleva tu entrenamiento al siguiente nivel. Gratis."
+    "description": "Descarga la app y lleva tu entrenamiento al siguiente nivel. Gratis para empezar."
   }
 }
