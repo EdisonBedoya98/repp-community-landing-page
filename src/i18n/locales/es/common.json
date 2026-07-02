@@ -27,11 +27,6 @@
     "downloadOn": "Descargar en",
     "playStore": "Google Play"
   },
-  "comingSoonModal": {
-    "title": "¡Próximamente!",
-    "description": "Estamos trabajando para llevar Repp a tus dispositivos. ¡Mantente atento!",
-    "button": "Entendido"
-  },
   "legal": {
     "lastUpdated": "Última actualización:"
   }

@@ -117,12 +117,6 @@ function App() {
 
         <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
           <div className="max-w-4xl">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-lime/10 border border-lime/20 text-lime px-4 py-1.5 rounded-full text-sm font-medium mb-8">
-              <span className="w-2 h-2 bg-lime rounded-full animate-pulse" />
-              {t("hero.badge")}
-            </div>
-
             {/* Main headline */}
             <h1 className="text-7xl sm:text-[8rem] lg:text-[10rem] font-black uppercase leading-[0.85] tracking-tighter mb-8">
               <span className="text-lime block">{t("hero.headline1")}</span>
