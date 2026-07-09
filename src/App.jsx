@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import reppetImg from "./assets/Reppet.png"
+import BrandIcon from "./BrandIcon.jsx"
 import LanguageSwitcher from "./i18n/LanguageSwitcher.jsx"
 import useLangHref from "./i18n/useLangHref.js"
 
@@ -80,7 +80,7 @@ function App() {
       <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-lg border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={reppetImg} alt="Repp" className="w-8 h-8 rounded-lg" />
+            <BrandIcon />
             <span className="text-xl font-extrabold uppercase tracking-wider">Repp</span>
           </div>
           <div className="hidden sm:flex items-center gap-8">
@@ -259,7 +259,7 @@ function App() {
       <footer className="py-8 px-6">
         <div className="max-w-7xl mx-auto flex flex-col gap-4 sm:grid sm:grid-cols-3 sm:items-center">
           <div className="flex items-center gap-2 justify-center sm:justify-start">
-            <img src={reppetImg} alt="Repp" className="w-8 h-8 rounded-lg" />
+            <BrandIcon />
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
           <div className="flex items-center justify-center gap-6 text-sm">

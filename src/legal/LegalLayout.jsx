@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import reppetImg from "../assets/Reppet.png"
+import BrandIcon from "../BrandIcon.jsx"
 import LanguageSwitcher from "../i18n/LanguageSwitcher.jsx"
 import useLangHref from "../i18n/useLangHref.js"
 
@@ -19,7 +19,7 @@ export default function LegalLayout({ title, lastUpdated, children }) {
       <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-lg border-b border-white/5">
         <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
           <a href={langHref("/")} className="flex items-center gap-2">
-            <img src={reppetImg} alt="Repp" className="w-8 h-8 rounded-lg" />
+            <BrandIcon />
             <span className="text-xl font-extrabold uppercase tracking-wider">Repp</span>
           </a>
           <div className="flex items-center gap-4">
@@ -62,7 +62,7 @@ export default function LegalLayout({ title, lastUpdated, children }) {
       <footer className="py-8 px-6">
         <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <img src={reppetImg} alt="Repp" className="w-8 h-8 rounded-lg" />
+            <BrandIcon />
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
