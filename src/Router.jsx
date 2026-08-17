@@ -11,6 +11,7 @@ import App from "./App.jsx"
 import PrivacyPolicy from "./legal/PrivacyPolicy.jsx"
 import TermsAndConditions from "./legal/TermsAndConditions.jsx"
 import Support from "./legal/Support.jsx"
+import AffiliateProgram from "./affiliate/AffiliateProgram.jsx"
 import {
   SUPPORTED_LANGUAGES,
   detectInitialLanguage,
@@ -64,6 +65,7 @@ export default function Router() {
           <Route path="/:lang" element={<App />} />
           <Route path="/:lang/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/:lang/support" element={<Support />} />
+          <Route path="/:lang/affiliate" element={<AffiliateProgram />} />
           <Route path="/:lang/terms-and-conditions" element={<TermsAndConditions />} />
           <Route path="*" element={<NotFoundRedirect />} />
         </Routes>

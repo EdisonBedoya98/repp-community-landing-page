@@ -1,0 +1,88 @@
+{
+  "eyebrow": "Programa de afiliados",
+  "titleStart": "Gana",
+  "titleEnd": "recomendando",
+  "subtitle": "Compartes un link. Quien lo abra e instale Repp queda asociado a ti para siempre, y cobras un porcentaje de cada suscripción que traigas, mes a mes, mientras esa persona siga suscrita.",
+  "rule": {
+    "beforeSplit": "De cada venta se descuentan primero el IVA y la comisión de la tienda. De lo que queda limpio,",
+    "split": "el 70% es tuyo",
+    "afterSplit": "y el 30% se lo queda Repp.",
+    "note": "Nadie cobra sobre el precio de lista. Los impuestos y la comisión de Apple o Google salen antes de repartir, así que el número que ves abajo es plata real, no una promesa sobre el bruto."
+  },
+  "link": {
+    "title": "Tu link",
+    "host": "link.repp.community/",
+    "code": "tunombre",
+    "body": "Va en tu bio, en tus historias, en la descripción de tus videos. El final lo eliges tú: tu nombre, tu marca, como te conozca tu gente. Cuanto más corto, más fácil de recordar.",
+    "note": "No hay códigos de descuento ni nada que la otra persona tenga que escribir. Con que abra el link alcanza."
+  },
+  "paths": {
+    "title": "Cuando alguien lo toca",
+    "hasApp": {
+      "tag": "Ya tiene Repp",
+      "title": "Se le abre la app",
+      "body": "Directo, sin pasar por la tienda. Queda asociado a ti igual."
+    },
+    "noApp": {
+      "tag": "No tiene Repp",
+      "title": "Va a la tienda",
+      "body": "Descarga la app y, al abrirla por primera vez, Repp ya sabe que llegó por ti. No tiene que hacer nada."
+    },
+    "desktop": {
+      "tag": "Está en el computador",
+      "title": "Va a la web",
+      "body": "Nadie instala una app desde un computador, así que ahí lo mandamos a la web."
+    }
+  },
+  "annual": {
+    "plan": "Si elige el plan anual",
+    "cadence": "por año, cada año",
+    "note": "Paga COP 149.900. Mientras siga renovando, esa comisión te vuelve a entrar todos los años."
+  },
+  "monthly": {
+    "plan": "Si elige el plan mensual",
+    "cadence": "por mes, cada mes",
+    "note": "Paga COP 49.900. Mientras siga suscrito, esa comisión te vuelve a entrar todos los meses."
+  },
+  "breakdown": {
+    "title": "De dónde sale ese número",
+    "colConcept": "Concepto",
+    "colAmount": "COP",
+    "colShare": "% de lo que paga",
+    "rows": {
+      "listPrice": "Precio del plan anual",
+      "vat": "IVA (19%), que se lleva la DIAN",
+      "storeFee": "Comisión de Apple / Google (30%)",
+      "netToRepp": "Queda limpio, después de impuestos y tienda",
+      "yourCut": "Tu 70% de eso"
+    },
+    "footnote": "Las tasas nominales son 19% de IVA y 30% de comisión de tienda, pero las dos se calculan sobre el precio sin impuesto. Por eso en la última columna aparecen como 16,0% y 25,2% de lo que paga tu referido. Tu 70% se calcula sobre los COP 88.176 que quedan limpios, que es la ganancia real de esa venta."
+  },
+  "growth": {
+    "title": "Cómo crece",
+    "colPeople": "Personas que traes",
+    "colPerYear": "Ganas por año",
+    "footnote": "Pesos colombianos, si esas personas eligen el plan anual, y se repite cada año mientras sigan renovando. Si eligen el mensual ganas cerca de 4 veces más, porque el plan anual les sale mucho más barato a ellas."
+  },
+  "how": {
+    "title": "Cómo funciona",
+    "step1": "Te damos de alta y te entregamos tu link. Lo compartes donde quieras.",
+    "step2": "Quien lo abre e instala Repp queda asociado a ti desde ese momento, sin que tenga que escribir nada.",
+    "step3": "Cada vez que esa persona paga o renueva, tu comisión se acumula sola."
+  },
+  "panel": {
+    "title": "Tu panel",
+    "body": "Entras con tu cuenta y ves tus números en tiempo real: cuánta gente hizo clic, cuántos quedaron asociados a ti, cuántos siguen suscritos y cuánto llevas ganado, mes a mes y movimiento por movimiento.",
+    "channels": "Ahí mismo tienes el link ya armado para Instagram, TikTok y YouTube. Copias el de cada red y después ves cuál te está trayendo más gente. La comisión es la misma en todos."
+  },
+  "fine": {
+    "title": "Letra chica",
+    "firstTouch": "Gana el primero. Si alguien llega por tu link, es tuyo. Aunque después vea el link de otro creador, no cambia.",
+    "lifetime": "Queda asociado a ti para siempre. No hay ventana de 30 días: mientras esa persona siga pagando, tú sigues cobrando.",
+    "renewal": "Cada renovación genera comisión nueva, no solo la primera compra.",
+    "existing": "Si alguien ya era suscriptor de Repp antes de tocar tu link, no cuenta. Ese no lo trajiste tú.",
+    "refund": "Si alguien pide reembolso, esa comisión se descuenta. Lo ves en tu panel como un movimiento en negativo, y es la única forma en que baja el saldo.",
+    "cancel": "Si alguien cancela, dejas de ganar sus renovaciones futuras, pero todo lo que ya ganaste con esa persona queda tuyo.",
+    "payout": "El pago se coordina de forma manual. Todavía no hay pagos automáticos."
+  }
+}

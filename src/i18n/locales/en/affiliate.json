@@ -1,0 +1,88 @@
+{
+  "eyebrow": "Affiliate program",
+  "titleStart": "Earn by",
+  "titleEnd": "referring",
+  "subtitle": "You share a link. Anyone who opens it and installs Repp is tied to you for good, and you earn a share of every subscription you bring in, month after month, for as long as that person stays subscribed.",
+  "rule": {
+    "beforeSplit": "Every sale has VAT and the store commission taken out first. Of whatever is left,",
+    "split": "70% is yours",
+    "afterSplit": "and 30% stays with Repp.",
+    "note": "Nobody gets paid on the list price. Taxes and Apple's or Google's commission come out before the split, so the number below is real money, not a promise on gross."
+  },
+  "link": {
+    "title": "Your link",
+    "host": "link.repp.community/",
+    "code": "yourname",
+    "body": "It goes in your bio, your stories, your video descriptions. The ending is yours to pick: your name, your brand, whatever your audience knows you by. The shorter it is, the easier it is to remember.",
+    "note": "There are no discount codes and nothing for the other person to type. Opening the link is enough."
+  },
+  "paths": {
+    "title": "When someone taps it",
+    "hasApp": {
+      "tag": "Already has Repp",
+      "title": "The app opens",
+      "body": "Straight in, no trip to the store. They're tied to you all the same."
+    },
+    "noApp": {
+      "tag": "Doesn't have Repp",
+      "title": "They go to the store",
+      "body": "They download the app and, the first time they open it, Repp already knows they came from you. They don't have to do a thing."
+    },
+    "desktop": {
+      "tag": "On a computer",
+      "title": "They go to the web",
+      "body": "Nobody installs an app from a computer, so we send them to the website instead."
+    }
+  },
+  "annual": {
+    "plan": "If they pick the annual plan",
+    "cadence": "per year, every year",
+    "note": "They pay COP 149,900. For as long as they keep renewing, that commission lands again every year."
+  },
+  "monthly": {
+    "plan": "If they pick the monthly plan",
+    "cadence": "per month, every month",
+    "note": "They pay COP 49,900. For as long as they stay subscribed, that commission lands again every month."
+  },
+  "breakdown": {
+    "title": "Where that number comes from",
+    "colConcept": "Item",
+    "colAmount": "COP",
+    "colShare": "% of what they pay",
+    "rows": {
+      "listPrice": "Annual plan price",
+      "vat": "VAT (19%), which goes to the tax authority",
+      "storeFee": "Apple / Google commission (30%)",
+      "netToRepp": "What's left after tax and the store",
+      "yourCut": "Your 70% of that"
+    },
+    "footnote": "The headline rates are 19% VAT and a 30% store commission, but both are charged on the pre-tax price. That is why the last column shows them as 16.0% and 25.2% of what your referral pays. Your 70% is calculated on the COP 88,176 that are left over, which is the real profit on that sale."
+  },
+  "growth": {
+    "title": "How it adds up",
+    "colPeople": "People you bring",
+    "colPerYear": "You earn per year",
+    "footnote": "Colombian pesos, if those people pick the annual plan, repeating every year for as long as they keep renewing. If they pick monthly you earn roughly 4x more, because the annual plan is far cheaper for them."
+  },
+  "how": {
+    "title": "How it works",
+    "step1": "We set you up and hand you your link. Share it wherever you want.",
+    "step2": "Whoever opens it and installs Repp is tied to you from that moment on, without having to type anything.",
+    "step3": "Every time that person pays or renews, your commission adds up on its own."
+  },
+  "panel": {
+    "title": "Your dashboard",
+    "body": "Sign in with your account and see your numbers in real time: how many people clicked, how many ended up tied to you, how many are still subscribed and how much you've earned, month by month and entry by entry.",
+    "channels": "Right there you also get your link ready-made for Instagram, TikTok and YouTube. Copy the one for each network and you'll see which is bringing you the most people. The commission is identical on all of them."
+  },
+  "fine": {
+    "title": "The fine print",
+    "firstTouch": "First one wins. If someone arrives through your link, they're yours. Even if they later see another creator's link, it doesn't change.",
+    "lifetime": "They stay tied to you for good. There's no 30-day window: for as long as that person keeps paying, you keep earning.",
+    "renewal": "Every renewal earns a fresh commission, not just the first purchase.",
+    "existing": "If someone was already a Repp subscriber before tapping your link, it doesn't count. You didn't bring that one in.",
+    "refund": "If someone gets a refund, that commission is reversed. You'll see it in your dashboard as a negative entry, and it's the only way your balance goes down.",
+    "cancel": "If someone cancels, you stop earning on their future renewals, but everything you already earned from them stays yours.",
+    "payout": "Payouts are arranged manually. There are no automatic payments yet."
+  }
+}

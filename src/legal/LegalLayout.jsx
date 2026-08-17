@@ -66,6 +66,9 @@ export default function LegalLayout({ title, lastUpdated, children }) {
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
+            <a href={langHref("/affiliate")} className="text-gray-500 hover:text-white transition-colors">
+              {t("footer.affiliatesShort")}
+            </a>
             <a href={langHref("/privacy-policy")} className="text-gray-500 hover:text-white transition-colors">
               {t("footer.privacyShort")}
             </a>

@@ -262,7 +262,13 @@ function App() {
             <BrandIcon />
             <span className="font-extrabold uppercase tracking-wider">Repp</span>
           </div>
-          <div className="flex items-center justify-center gap-6 text-sm">
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
+            <a
+              href={langHref("/affiliate")}
+              className="text-gray-400 hover:text-white transition-colors"
+            >
+              {t("common:footer.affiliates")}
+            </a>
             <a
               href={langHref("/privacy-policy")}
               className="text-gray-400 hover:text-white transition-colors"

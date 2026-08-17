@@ -6,12 +6,14 @@ import esLanding from "./locales/es/landing.json"
 import esPrivacy from "./locales/es/privacy.json"
 import esTerms from "./locales/es/terms.json"
 import esSupport from "./locales/es/support.json"
+import esAffiliate from "./locales/es/affiliate.json"
 
 import enCommon from "./locales/en/common.json"
 import enLanding from "./locales/en/landing.json"
 import enPrivacy from "./locales/en/privacy.json"
 import enTerms from "./locales/en/terms.json"
 import enSupport from "./locales/en/support.json"
+import enAffiliate from "./locales/en/affiliate.json"
 
 export const SUPPORTED_LANGUAGES = ["en", "es"]
 export const DEFAULT_LANGUAGE = "en"
@@ -23,6 +25,7 @@ const resources = {
     privacy: esPrivacy,
     terms: esTerms,
     support: esSupport,
+    affiliate: esAffiliate,
   },
   en: {
     common: enCommon,
@@ -30,6 +33,7 @@ const resources = {
     privacy: enPrivacy,
     terms: enTerms,
     support: enSupport,
+    affiliate: enAffiliate,
   },
 }
 
@@ -56,7 +60,7 @@ i18n.use(initReactI18next).init({
   fallbackLng: DEFAULT_LANGUAGE,
   supportedLngs: SUPPORTED_LANGUAGES,
   nonExplicitSupportedLngs: true,
-  ns: ["common", "landing", "privacy", "terms", "support"],
+  ns: ["common", "landing", "privacy", "terms", "support", "affiliate"],
   defaultNS: "common",
   interpolation: {
     escapeValue: false,
