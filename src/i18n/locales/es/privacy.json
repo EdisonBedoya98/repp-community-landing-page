@@ -1,6 +1,6 @@
 {
   "title": "Política de Privacidad",
-  "lastUpdated": "27 de abril de 2026",
+  "lastUpdated": "17 de agosto de 2026",
   "intro1": "En <strong>Repp</strong> (\"nosotros\", \"nuestro\" o \"la app\") respetamos tu privacidad y nos comprometemos a protegerla. Esta Política de Privacidad describe qué información recopilamos cuando utilizas la aplicación móvil Repp y los servicios relacionados (en conjunto, el \"Servicio\"), cómo la usamos, con quién la compartimos y los derechos que tienes sobre ella.",
   "intro2": "Al crear una cuenta o utilizar el Servicio aceptas las prácticas descritas en esta Política. Si no estás de acuerdo, por favor no utilices la app.",
   "section1": {
@@ -70,7 +70,10 @@
   },
   "section8": {
     "heading": "8. Servicios de terceros",
-    "body": "La app puede utilizar servicios de terceros para autenticación, almacenamiento, análisis y notificaciones. Estos servicios solo reciben los datos necesarios para cumplir su función y están sujetos a sus propias políticas de privacidad."
+    "body": "La app utiliza servicios de terceros para autenticación, almacenamiento, análisis, monitoreo de errores, pagos y atribución. Estos servicios solo reciben los datos necesarios para cumplir su función y están sujetos a sus propias políticas de privacidad.",
+    "attributionHeading": "8.1 Atribución de enlaces de referido",
+    "attributionBody": "Cuando instalas Repp desde el enlace que compartió un creador, usamos <strong>AppsFlyer</strong> para saber por qué enlace llegaste y poder pagarle su comisión a esa persona. AppsFlyer recibe un identificador de tu dispositivo, datos básicos de la instalación y tu identificador de usuario de Repp una vez que inicias sesión.",
+    "attributionBody2": "<strong>No usamos esta información para publicidad dirigida y no la vendemos.</strong> No solicitamos acceso al identificador de publicidad (IDFA) en iOS, no construimos huellas digitales de tu dispositivo, y no combinamos tus datos con los que otras empresas recopilan en sus apps o sitios web. El clic en el enlace ocurre en nuestro propio dominio (<strong>link.repp.community</strong>) y queda registrado en nuestros servidores. Puedes consultar la política de privacidad de AppsFlyer en <a href=\"https://www.appsflyer.com/legal/services-privacy-policy/\" target=\"_blank\" rel=\"noopener noreferrer\">appsflyer.com</a>."
   },
   "section9": {
     "heading": "9. Privacidad de menores",

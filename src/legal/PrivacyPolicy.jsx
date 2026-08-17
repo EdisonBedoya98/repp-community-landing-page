@@ -52,6 +52,13 @@ export default function PrivacyPolicy() {
       <h2>{t("section8.heading")}</h2>
       <RichP html={t("section8.body")} />
 
+      {/* Apple exige nombrar al proveedor de atribución, no basta con decir
+          "servicios de terceros". Va como subsección propia para que se pueda
+          enlazar y para que el revisor la encuentre. */}
+      <h3>{t("section8.attributionHeading")}</h3>
+      <RichP html={t("section8.attributionBody")} />
+      <RichP html={t("section8.attributionBody2")} />
+
       <h2>{t("section9.heading")}</h2>
       <RichP html={t("section9.body")} />
 
