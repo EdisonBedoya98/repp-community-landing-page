@@ -1,6 +1,6 @@
 {
   "title": "Privacy Policy",
-  "lastUpdated": "August 17, 2026",
+  "lastUpdated": "August 20, 2026",
   "intro1": "At <strong>Repp</strong> (\"we\", \"us\", \"our\" or \"the app\") we respect your privacy and are committed to protecting it. This Privacy Policy describes what information we collect when you use the Repp mobile application and related services (collectively, the \"Service\"), how we use it, who we share it with, and the rights you have over it.",
   "intro2": "By creating an account or using the Service you accept the practices described in this Policy. If you do not agree, please do not use the app.",
   "section1": {
@@ -73,7 +73,7 @@
     "body": "The app uses third-party services for authentication, storage, analytics, error monitoring, payments and attribution. These services only receive the data necessary to fulfill their function and are subject to their own privacy policies.",
     "attributionHeading": "8.1 Referral link attribution",
     "attributionBody": "When you install Repp from a link shared by a creator, we use <strong>AppsFlyer</strong> to know which link brought you in, so we can pay that person their commission. AppsFlyer receives a device identifier, basic install data, and your Repp user identifier once you sign in.",
-    "attributionBody2": "<strong>We do not use this information for targeted advertising and we do not sell it.</strong> We do not request access to the advertising identifier (IDFA) on iOS, we do not build device fingerprints, and we do not combine your data with data other companies collect in their apps or websites. The link click happens on our own domain (<strong>link.repp.community</strong>) and is recorded on our own servers. You can read AppsFlyer's privacy policy at <a href=\"https://www.appsflyer.com/legal/services-privacy-policy/\" target=\"_blank\" rel=\"noopener noreferrer\">appsflyer.com</a>."
+    "attributionBody2": "<strong>We do not use this information for targeted advertising and we do not sell it.</strong> On iOS we only access the advertising identifier (IDFA) if you give us permission through the App Tracking Transparency prompt; that permission is used solely to recognize that the link you tapped and the app install belong to the same person, and if you decline the app works exactly the same. We do not build device fingerprints and we do not combine your data with data other companies collect in their apps or websites. The link click happens on our own domain (<strong>link.repp.community</strong>) and is recorded on our own servers. You can read AppsFlyer's privacy policy at <a href=\"https://www.appsflyer.com/legal/services-privacy-policy/\" target=\"_blank\" rel=\"noopener noreferrer\">appsflyer.com</a>."
   },
   "section9": {
     "heading": "9. Children's privacy",
