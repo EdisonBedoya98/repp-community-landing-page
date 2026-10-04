@@ -10,6 +10,10 @@ export default function PrivacyPolicy() {
     <LegalLayout title={t("title")} lastUpdated={t("lastUpdated")}>
       <RichP html={t("intro1")} />
       <RichP html={t("intro2")} />
+      {/* Resumen del cambio material más reciente: la sección 11 promete
+          avisarlo, y este es el lugar donde lo encuentra quien ya leyó la
+          versión anterior. */}
+      <RichP html={t("changesSummary")} />
 
       <h2>{t("section1.heading")}</h2>
 
@@ -54,10 +58,26 @@ export default function PrivacyPolicy() {
 
       {/* Apple exige nombrar al proveedor de atribución, no basta con decir
           "servicios de terceros". Va como subsección propia para que se pueda
-          enlazar y para que el revisor la encuentre. */}
+          enlazar y para que el revisor la encuentre. Lo mismo con Meta y
+          RevenueCat: el aviso de ATT nombra a AppsFlyer y Meta, y la política
+          tiene que decir qué recibe cada uno y cómo se controla. */}
       <h3>{t("section8.attributionHeading")}</h3>
       <RichP html={t("section8.attributionBody")} />
+      <RichList items={tArr("section8.attributionList")} />
       <RichP html={t("section8.attributionBody2")} />
+
+      <h3>{t("section8.metaHeading")}</h3>
+      <RichP html={t("section8.metaBody")} />
+      <RichList items={tArr("section8.metaList")} />
+      <RichP html={t("section8.metaBody2")} />
+
+      <h3>{t("section8.paymentsHeading")}</h3>
+      <RichP html={t("section8.paymentsBody")} />
+
+      <h3>{t("section8.controlHeading")}</h3>
+      <RichP html={t("section8.controlBody")} />
+      <RichList items={tArr("section8.controlList")} />
+      <RichP html={t("section8.controlBody2")} />
 
       <h2>{t("section9.heading")}</h2>
       <RichP html={t("section9.body")} />

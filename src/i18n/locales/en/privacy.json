@@ -1,14 +1,15 @@
 {
   "title": "Privacy Policy",
-  "lastUpdated": "August 20, 2026",
+  "lastUpdated": "October 4, 2026",
   "intro1": "At <strong>Repp</strong> (\"we\", \"us\", \"our\" or \"the app\") we respect your privacy and are committed to protecting it. This Privacy Policy describes what information we collect when you use the Repp mobile application and related services (collectively, the \"Service\"), how we use it, who we share it with, and the rights you have over it.",
   "intro2": "By creating an account or using the Service you accept the practices described in this Policy. If you do not agree, please do not use the app.",
+  "changesSummary": "<strong>What changed on October 4, 2026:</strong> we now run ads for Repp on Facebook and Instagram, and we use AppsFlyer and Meta to measure which ads bring people to the app, improve who they are shown to and build audiences. The previous version of this Policy said we did not use your data for targeted advertising; that is no longer the case. The details, and how to limit that use, are in section 8.",
   "section1": {
     "heading": "1. Information we collect",
     "sub1Heading": "1.1 Account information",
     "sub1Body": "When you create an account we may collect your name, email address, password (stored encrypted) and, optionally, a profile picture and date of birth.",
     "sub2Heading": "1.2 Profile and preferences information",
-    "sub2Body": "To personalize your experience, we store the data you provide yourself, such as your goal (lose fat, gain mass, maintain), experience level, available equipment, training days per week, body weight, height and other optional metrics.",
+    "sub2Body": "To personalize your experience, we store the data you provide, such as your goal (lose fat, build muscle, maintain), experience level, available equipment, training days per week, body weight, height and other optional metrics. Weight, height and other body metrics may be considered health-related data: providing them is optional, we only use them to personalize your experience and we do not share them for advertising.",
     "sub3Heading": "1.3 Training data",
     "sub3Body": "We collect the information you generate by using the Service, including:",
     "sub3List": [
@@ -18,7 +19,7 @@
       "Configured rest times and timer usage."
     ],
     "sub4Heading": "1.4 Technical and usage information",
-    "sub4Body": "We automatically collect information about your device (model, operating system, language), unique install identifiers, approximate IP address, crash logs and usage events (screens visited, features used) to maintain and improve the Service."
+    "sub4Body": "We automatically collect information about your device (model, operating system, language), unique install identifiers, device and advertising identifiers, IP address, crash logs and usage events (screens visited, features used) to maintain and improve the Service. The device and advertising identifiers are: on iOS, the IDFV (a code Apple assigns to Repp on your iPhone, different for each company) and, only if you allow it in Apple's prompt asking whether Repp may track your activity (App Tracking Transparency), the IDFA (your iPhone's advertising identifier); on Android, Google's advertising ID. Those identifiers, your IP address and some app events (not crash logs or the screens you visit) are also used to measure and improve our ads, as explained in section 8."
   },
   "section2": {
     "heading": "2. How we use your information",
@@ -27,6 +28,9 @@
       "Provide, operate and maintain the Service.",
       "Personalize your routines, recommendations and statistics.",
       "Sync your data across devices when you sign in.",
+      "Manage your subscription.",
+      "Measure and improve our ads on other platforms, such as Facebook and Instagram: know which ad or link brought each install, measure campaign results, improve who they are shown to and build audiences (for example, to avoid showing them to people who already installed Repp) (see section 8).",
+      "Know which creator's link brought you to Repp so we can pay them their commission.",
       "Diagnose technical issues, prevent fraud and improve stability.",
       "Communicate with you about changes, updates or support.",
       "Comply with applicable legal obligations."
@@ -34,13 +38,15 @@
   },
   "section3": {
     "heading": "3. Legal basis for processing",
-    "body": "We process your personal data based on (a) the <strong>performance of the contract</strong> you accept by using the Service; (b) your <strong>consent</strong>, when required; (c) our <strong>legitimate interest</strong> in maintaining and improving the app; and (d) the <strong>compliance with legal obligations</strong> applicable to us."
+    "body": "We process your personal data based on (a) the <strong>performance of the contract</strong> you accept when using the Service; (b) your <strong>consent</strong> or authorization: by creating an account or using the Service you accept this Policy, including the use of your device identifiers and certain app events to measure and improve our ads with AppsFlyer and Meta (section 8); on iOS, access to the IDFA additionally requires the permission you give in the App Tracking Transparency prompt. You can withdraw your consent or limit that use at any time (see sections 7 and 8.4); (c) our <strong>legitimate interest</strong> in maintaining and improving the app; and (d) <strong>compliance with legal obligations</strong> that apply to us. We process your data in accordance with Colombia's personal data protection law (Law 1581 of 2012) and other applicable rules. Who the data controller is can be found in section 12."
   },
   "section4": {
     "heading": "4. How we share your information",
-    "body": "<strong>We do not sell your personal data.</strong> We only share information in the following cases:",
+    "body": "<strong>We do not sell your personal data</strong>: no one pays us for it. We do share it in the following cases, including the advertising partners described below:",
     "list": [
-      "<strong>Service providers</strong> that help us operate the app (cloud hosting, analytics, error monitoring, authentication), under confidentiality and data processing agreements.",
+      "<strong>Service providers</strong> that help us operate the app (cloud hosting, authentication and database, file storage, product analytics and error monitoring), under confidentiality and data processing agreements.",
+      "<strong>Subscriptions and payments:</strong> RevenueCat manages the subscriptions you buy in the app through Apple or Google. Your card details are processed by Apple and Google; Repp does not receive them.",
+      "<strong>Advertising and measurement partners:</strong> AppsFlyer, which measures which ads and links bring people to Repp, and Meta (Facebook and Instagram), where we run ads for Repp and which receives data only through AppsFlyer. They receive identifiers of your device and certain app and subscription events; AppsFlyer also receives your IP address and your Repp user identifier. They use them to measure our ads, decide who they are shown to and build audiences, and Meta also for its own purposes. They do not receive your email or your phone number. The details are in section 8.",
       "<strong>Legal compliance:</strong> when required by law, court order or to protect our rights, yours or public safety.",
       "<strong>Corporate transfers:</strong> in case of merger, acquisition or sale of assets, your data may be transferred to the successor, maintaining the protections of this Policy.",
       "<strong>With your explicit consent,</strong> in any other case."
@@ -53,7 +59,7 @@
   },
   "section6": {
     "heading": "6. Data retention",
-    "body": "We keep your information while your account is active or for the time necessary to fulfill the purposes described in this Policy. When you delete your account, we will delete or anonymize your personal data within a reasonable period, unless the law requires us to keep it."
+    "body": "We keep your information while your account is active or for as long as necessary to fulfill the purposes described in this Policy. When you delete your account, we will delete or anonymize the personal data we hold within a reasonable time, unless the law requires us to keep it. Data already received by AppsFlyer, Meta and RevenueCat is not deleted automatically when you delete your account: it is kept under their own policies. If you want us to ask them to delete the data associated with your device or your account, write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>."
   },
   "section7": {
     "heading": "7. Your rights",
@@ -63,25 +69,56 @@
       "<strong>Rectification:</strong> correct inaccurate or outdated information.",
       "<strong>Deletion:</strong> request the deletion of your account and associated data.",
       "<strong>Portability:</strong> receive your data in a structured format.",
-      "<strong>Objection or limitation</strong> to processing in certain cases.",
-      "<strong>Withdraw consent</strong> at any time."
+      "<strong>Objection or restriction</strong> of processing in certain cases, including the use of your data for advertising.",
+      "<strong>Withdraw consent</strong> at any time.",
+      "<strong>Proof of authorization:</strong> request proof of the authorization you gave us.",
+      "<strong>File a complaint:</strong> if you are in Colombia, with the Superintendence of Industry and Commerce (SIC), after first submitting your claim to us."
     ],
     "body2": "To exercise these rights write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>. We will respond within the applicable legal timeframes."
   },
   "section8": {
-    "heading": "8. Third-party services",
-    "body": "The app uses third-party services for authentication, storage, analytics, error monitoring, payments and attribution. These services only receive the data necessary to fulfill their function and are subject to their own privacy policies.",
-    "attributionHeading": "8.1 Referral link attribution",
-    "attributionBody": "When you install Repp from a link shared by a creator, we use <strong>AppsFlyer</strong> to know which link brought you in, so we can pay that person their commission. AppsFlyer receives a device identifier, basic install data, and your Repp user identifier once you sign in.",
-    "attributionBody2": "<strong>We do not use this information for targeted advertising and we do not sell it.</strong> On iOS we only access the advertising identifier (IDFA) if you give us permission through the App Tracking Transparency prompt; that permission is used solely to recognize that the link you tapped and the app install belong to the same person, and if you decline the app works exactly the same. We do not build device fingerprints and we do not combine your data with data other companies collect in their apps or websites. The link click happens on our own domain (<strong>link.repp.community</strong>) and is recorded on our own servers. You can read AppsFlyer's privacy policy at <a href=\"https://www.appsflyer.com/legal/services-privacy-policy/\" target=\"_blank\" rel=\"noopener noreferrer\">appsflyer.com</a>."
+    "heading": "8. Third-party services and advertising",
+    "body": "The app uses, among others, third-party services for authentication and database (Supabase), file storage, product analytics (PostHog), error monitoring (Sentry), push notifications (Expo, Apple and Google), sign-in with Google or Apple, the Strava integration if you choose to connect it, subscriptions (RevenueCat) and attribution, measurement and advertising (AppsFlyer and, through AppsFlyer, Meta). Providers process your data on our behalf, only receive what they need to perform their function and are subject to their own privacy policies. Meta, on the other hand, also uses the data it receives for its own purposes, as explained in section 8.2. The app does not include the Facebook SDK or the SDKs of other ad networks.",
+    "attributionHeading": "8.1 Ad attribution and measurement (AppsFlyer)",
+    "attributionBody": "We use <strong>AppsFlyer</strong> to know which ad or link brought you to Repp. With that we measure and improve our ads and, when you install Repp from a link shared by a creator, we know which link brought you in so we can pay that person their commission. AppsFlyer receives:",
+    "attributionList": [
+      "The app install and each time you open it.",
+      "Identifiers of your device: the AppsFlyer ID; on iOS, the IDFV and, only if you accept it in the App Tracking Transparency prompt, the IDFA; on Android, Google's advertising ID.",
+      "Your IP address and technical data about the device and the app, such as model, operating system, language, network type and app version; on Android, also the Google Play install referrer (where the download came from).",
+      "Your Repp user identifier (an internal code, not your name or email), once you sign in.",
+      "Two app events: <strong>sign-up completed</strong>, with the method you used (email, Google or Apple), and <strong>workout finished</strong>: only that you finished a workout and when, without any data about what you did.",
+      "Your subscription events (purchases, renewals, cancellations and refunds, with their amount), sent by RevenueCat (see section 8.3).",
+      "If you open a creator's link on your phone and don't have the app yet, your browser goes from <strong>link.repp.community</strong> to an AppsFlyer link, which receives your IP address, your browser data and the creator's code."
+    ],
+    "attributionBody2": "If on iOS you accept the App Tracking Transparency prompt, the IDFA is used to measure which ads and links bring people to Repp (with AppsFlyer and Meta) and to improve who we show Repp's ads to. We do not build device fingerprints (fingerprinting). For creator links, AppsFlyer may match the click with the install statistically, using data such as the IP address and device type. The click on a creator's link first happens on our own domain and is recorded on our own servers. We do not share your workouts, weight, height or other body metrics with AppsFlyer, Meta or RevenueCat. You can read AppsFlyer's privacy policy at <a href=\"https://www.appsflyer.com/legal/services-privacy-policy/\" target=\"_blank\" rel=\"noopener noreferrer\">appsflyer.com</a>.",
+    "metaHeading": "8.2 Advertising on Meta (Facebook and Instagram)",
+    "metaBody": "We run ads for Repp on <strong>Meta</strong> (Facebook and Instagram). The app does not include the Facebook SDK: Meta receives data from Repp only through AppsFlyer, via its Meta Ads integration, and it receives it for every install, including people who did not come from an ad (for example, from the store or from a creator's link). It receives the install and the events (sign-up completed, workout finished and your purchases) together with identifiers of your device. To attribute installs and build audiences, Meta matches those identifiers with your Facebook or Instagram account, if you have one. This data is used to:",
+    "metaList": [
+      "Attribute which ad brought each install.",
+      "Measure the results of our campaigns.",
+      "Optimize who sees Repp's ads.",
+      "Build audiences; for example, to avoid showing Repp ads to people who already installed the app or to find people similar to those who already use it."
+    ],
+    "metaBody2": "Meta does not act only on our behalf: it processes this data as an independent controller, under its own terms and privacy policy, and may also use it for its own purposes, such as providing measurement services and targeting and delivering ads. On iOS, if you did not accept the App Tracking Transparency prompt, AppsFlyer does not send Meta your events with identifiers of your device; Meta only receives the aggregated, anonymous campaign results reported by Apple (SKAdNetwork). <strong>We do not share your email or your phone number with Meta or with AppsFlyer, not even converted into an unreadable code (hashed).</strong> You can read Meta's privacy policy at <a href=\"https://www.facebook.com/privacy/policy/\" target=\"_blank\" rel=\"noopener noreferrer\">facebook.com</a>.",
+    "paymentsHeading": "8.3 Subscriptions and payments (RevenueCat)",
+    "paymentsBody": "Repp subscriptions are bought inside the app through Apple (App Store) or Google (Google Play), and are managed by <strong>RevenueCat</strong>. Payment data, such as your card, is processed by Apple and Google; Repp does not receive it. RevenueCat knows your Repp user identifier and your purchase history, and also receives the AppsFlyer ID, your IP address and identifiers of your device (on iOS, the IDFV and, only if you accepted the App Tracking Transparency prompt, the IDFA; on Android, Google's advertising ID). With that it sends AppsFlyer the purchases, renewals, cancellations and refunds of your subscription, with their amount, and AppsFlyer forwards to Meta the purchase events we configure, which Meta uses as explained in section 8.2. You can read RevenueCat's privacy policy at <a href=\"https://www.revenuecat.com/privacy/\" target=\"_blank\" rel=\"noopener noreferrer\">revenuecat.com</a>.",
+    "controlHeading": "8.4 How to control the use of your data for advertising",
+    "controlBody": "These are your options:",
+    "controlList": [
+      "<strong>On iOS:</strong> the app asks for your permission through Apple's prompt asking whether Repp may track your activity (App Tracking Transparency), and you can change your decision at any time in <strong>Settings > Privacy & Security > Tracking</strong>. If you decline, the IDFA is not accessed, Meta does not receive your events with identifiers of your device and the app works the same. AppsFlyer still receives the other data listed in section 8.1, and Apple may report aggregated, anonymous campaign results (SKAdNetwork).",
+      "<strong>On Android:</strong> the app does not show a separate permission prompt. You can delete or reset your advertising ID in the system Settings (<strong>Google > Ads</strong> or <strong>Privacy > Ads</strong>, depending on your device). If you delete it, it is no longer sent, but AppsFlyer still receives the other data listed in section 8.1.",
+      "<strong>On Facebook and Instagram:</strong> in Meta's Accounts Center (<a href=\"https://accountscenter.facebook.com/\" target=\"_blank\" rel=\"noopener noreferrer\">accountscenter.facebook.com</a>), in your ad preferences, you can review and limit how Meta uses the information it receives from advertising partners like Repp to show you ads, and disconnect your activity off Meta technologies.",
+      "<strong>By email:</strong> the app does not yet have its own setting to stop sending this data; while it is installed, the only way to stop it completely is to uninstall it. If you want to object to this use, or want us to ask AppsFlyer and RevenueCat to delete the data associated with your device or your account, write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>."
+    ],
+    "controlBody2": "If you accepted the App Tracking Transparency prompt in a version of Repp released before October 4, 2026, that prompt said the permission was only used to know which link brought you in and not to show you ads. Starting with this version, the IDFA is also used to measure and improve Repp's ads with AppsFlyer and Meta. If you don't agree, you can withdraw the permission in <strong>Settings > Privacy & Security > Tracking > Repp</strong>; from then on we no longer access the IDFA."
   },
   "section9": {
     "heading": "9. Children's privacy",
-    "body": "The Service is not directed to minors under 13 (or the minimum age applicable in your jurisdiction). We do not knowingly collect personal data from minors. If you believe a minor has provided us with information, contact us to delete it."
+    "body": "The Service is not directed to children under 13 (or the minimum age in your jurisdiction) and we do not knowingly collect their data. If you are between 13 and 17, you need the authorization of your parent or legal guardian to use Repp, and we process your data respecting your best interests, under Colombia's Law 1581 of 2012. If you believe a minor gave us information without that authorization, contact us to delete it."
   },
   "section10": {
     "heading": "10. International transfers",
-    "body": "Your data may be processed in countries other than yours. When this happens, we apply appropriate safeguards (such as standard contractual clauses) to protect your information in accordance with applicable law."
+    "body": "Your data may be processed in countries other than your own, where our providers operate (including Supabase, PostHog, Sentry, RevenueCat, AppsFlyer and Meta). When this happens, we apply appropriate safeguards, such as each provider's data processing agreements, to protect your information in accordance with applicable law."
   },
   "section11": {
     "heading": "11. Changes to this Policy",
@@ -89,6 +126,6 @@
   },
   "section12": {
     "heading": "12. Contact",
-    "body": "If you have questions about this Privacy Policy or about the processing of your data, write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>."
+    "body": "The data controller for your personal data is Edison Bedoya, in Colombia. If you have questions about this Privacy Policy, want to make an inquiry or a claim about your data, or exercise your rights, write to us at <a href=\"mailto:support@repp.community\">support@repp.community</a>."
   }
 }
