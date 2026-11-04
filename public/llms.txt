@@ -1,0 +1,28 @@
+# Repp
+
+> Repp es una app de gimnasio para iPhone y Android, en español e inglés: registras tus entrenos serie por serie, subes de rango en cada ejercicio y cada músculo, y llevas tu racha de semanas. Gratis para empezar; Repp Pro es opcional.
+
+## Qué hace
+
+- Registro de entrenos: peso, repeticiones y descanso por serie, con lo de la vez anterior a la vista. Funciona sin conexión y se sube al volver la red.
+- Más de 1.300 ejercicios con GIF, y ejercicios propios.
+- Rangos por ejercicio y por músculo, de Hierro a Repp Elite, y un Rango Repp general. Comparación con amigos.
+- Racha semanal, widget en la pantalla de inicio y mini reproductor en la pantalla de bloqueo.
+- Retos 1 contra 1: retas a alguien a superar tu entreno y eliges el plazo.
+- Coach: respondes unas preguntas (objetivo, días, equipo) y arma un programa. Verlo es gratis; guardarlo es de Repp Pro. No usa un modelo de lenguaje.
+- Feed para compartir tus entrenos con fotos y video.
+- Planes de entrenadores: si tu entrenador usa Repp Coach (https://reppcoach.com), su plan te aparece en la app.
+
+## Gratis y Repp Pro
+
+- Gratis: entrenos sin límite y hasta 4 rutinas guardadas.
+- Repp Pro: rutinas ilimitadas, sobrecarga automática, guardar el programa del Coach, estadísticas avanzadas y «Tu potencial».
+
+## Enlaces
+
+- Sitio: https://www.repp.community/es (inglés: /en)
+- App Store: https://apps.apple.com/app/id6764410597
+- Google Play: https://play.google.com/store/apps/details?id=community.repp.app
+- Para entrenadores: https://reppcoach.com
+- Privacidad: https://www.repp.community/es/privacy-policy
+- Soporte: support@repp.community

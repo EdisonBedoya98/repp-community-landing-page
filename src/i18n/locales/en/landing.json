@@ -1,45 +1,109 @@
 {
+  "meta": {
+    "title": "Repp · The gym app to log your workouts",
+    "description": "Log every set, rank up in every muscle and keep your streak alive. The gym workout tracker for iPhone and Android, free to start."
+  },
   "hero": {
-    "headline1": "Train",
-    "headline2": "with",
-    "headline3": "Repp",
-    "description": "AI-powered weekly plans, full workout tracking, strength rankings and a community that keeps you motivated. The fitness app that adapts to you."
+    "eyebrow": "Gym workout tracker",
+    "titleTop": "Your strength",
+    "titleBottom": "has a rank.",
+    "subtitle": "Log every set, rank up in every muscle and keep your streak alive.",
+    "note": "Free to start · iPhone and Android",
+    "qr": "Scan with your phone",
+    "visual": "The Repp app: ranks for every muscle and a workout logged set by set"
+  },
+  "facts": {
+    "label": "At a glance",
+    "exercises": "1,300+ exercises with GIFs",
+    "offline": "Works offline",
+    "platforms": "iPhone and Android",
+    "spanish": "In English and Spanish"
   },
   "features": {
-    "titleStart": "Everything to",
-    "titleMiddle": "train",
-    "titleEnd": "better",
-    "subtitle": "Features designed so you can focus on what matters: your training.",
-    "items": {
-      "aiPlans": {
-        "title": "AI Weekly Plans",
-        "description": "Generate a personalized weekly plan based on your goal, level, available days and equipment, powered by AI."
-      },
-      "library": {
-        "title": "1500+ Exercises",
-        "description": "A full exercise library with visual guides, filterable by muscle group and equipment. Use ready-made routines or build your own and organize them in folders."
-      },
-      "tracking": {
-        "title": "Workout Tracking",
-        "description": "Log sets, reps and weight with a built-in rest timer. Works offline and syncs automatically when you're back online."
-      },
-      "progress": {
-        "title": "Progress & Stats",
-        "description": "Charts, personal records, streaks, monthly reports and a muscle heatmap so you can see exactly how you're improving."
-      },
-      "rankings": {
-        "title": "Strength Rankings",
-        "description": "Earn your Repp Rank and climb the tiers. Compare your strength by muscle group, adjusted to your body weight."
-      },
-      "community": {
-        "title": "Community",
-        "description": "Share your workouts, follow your friends and stay motivated with likes and comments on every session."
-      }
+    "eyebrow": "Features",
+    "title": "Built for the gym.",
+    "download": "Download for free",
+    "log": {
+      "label": "Logging",
+      "title": "Log every set in seconds.",
+      "text": "Weight, reps and rest, with what you did last time right there. Offline too.",
+      "visual": "Logging a workout in Repp: sets with weight, reps and rest"
+    },
+    "ranks": {
+      "label": "Ranks",
+      "title": "Rank up in every muscle.",
+      "text": "From Iron to Repp Elite, for every exercise and every muscle. See how strong you really are and compare with friends.",
+      "visual": "Ranks in Repp: your Repp Rank and the body map with each muscle's level",
+      "tiers": "Ranks from Iron to Repp Elite"
+    },
+    "coach": {
+      "label": "Coach",
+      "title": "A program built for you.",
+      "text": "Answer a few questions (your goal, your days and the equipment you have) and the Coach builds your program.",
+      "visual": "Repp's Coach asking what equipment you have"
+    },
+    "habit": {
+      "label": "Streaks and challenges",
+      "title": "Don't break the streak.",
+      "text": "Count your training weeks, keep them on a home-screen widget and challenge a friend to beat your workout.",
+      "visual": "Repp's streak widget and a one-on-one challenge",
+      "streak": "Streak",
+      "weeks": "weeks",
+      "days": [
+        "M",
+        "T",
+        "W",
+        "T",
+        "F",
+        "S",
+        "S"
+      ],
+      "challenge": "Challenge",
+      "you": "You",
+      "rival": "Andrés",
+      "routine": "Push A",
+      "left": "2 days left",
+      "versus": "Beat their workout"
     }
   },
-  "cta": {
-    "titleStart": "Start",
-    "titleEnd": "today",
-    "description": "Download the app and take your training to the next level. Free to start."
+  "trainer": {
+    "eyebrow": "For trainers",
+    "title": "Are you a trainer?",
+    "text": "Build routines and plans in Repp Coach and your clients see them in their Repp app.",
+    "button": "Meet Repp Coach"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "What people ask us.",
+    "items": [
+      {
+        "q": "Is Repp free?",
+        "a": "Yes. You log unlimited workouts and save up to 4 routines for free. Repp Pro is optional: unlimited routines, automatic progressive overload, saving your Coach program and advanced stats."
+      },
+      {
+        "q": "Does it work offline?",
+        "a": "Yes. You start and finish your workout with no signal, and it uploads itself once you're back online."
+      },
+      {
+        "q": "How do ranks work?",
+        "a": "Every exercise you train gets a rank, from Iron to Repp Elite, based on the weight and reps you do (and your bodyweight for bodyweight exercises). Your muscle ranks and your Repp Rank come from there."
+      },
+      {
+        "q": "What are challenges?",
+        "a": "You challenge someone to beat your workout, one on one, and pick the deadline. It settles itself as soon as your rival finishes theirs."
+      },
+      {
+        "q": "Is it on iPhone and Android?",
+        "a": "Yes, on the App Store and Google Play."
+      },
+      {
+        "q": "Can I train with my coach?",
+        "a": "Yes. If your trainer uses Repp Coach, they add you and their plan shows up in your Workouts."
+      }
+    ]
+  },
+  "final": {
+    "title": "Your next PR starts today.",
+    "note": "Free to start"
   }
 }

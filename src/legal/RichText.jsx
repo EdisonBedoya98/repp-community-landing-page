@@ -1,3 +1,5 @@
+'use client'
+
 export function RichP({ html, className }) {
   return (
     <p

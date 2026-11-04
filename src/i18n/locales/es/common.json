@@ -2,7 +2,10 @@
   "nav": {
     "features": "Funciones",
     "download": "Descargar",
-    "backHome": "Volver al inicio"
+    "backHome": "Volver al inicio",
+    "ranks": "Rangos",
+    "faq": "Preguntas",
+    "sections": "Secciones"
   },
   "footer": {
     "affiliates": "Programa de Afiliados",
@@ -13,7 +16,11 @@
     "privacy": "Política de Privacidad",
     "support": "Soporte",
     "terms": "Términos y Condiciones",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "app": "App",
+    "legal": "Legal",
+    "coach": "Repp Coach para entrenadores",
+    "tagline": "La app de gimnasio en español: registra cada serie, sube de rango y no rompas la racha."
   },
   "language": {
     "label": "Idioma",
@@ -22,7 +29,7 @@
     "switchTo": "Cambiar a {{language}}"
   },
   "appStore": {
-    "downloadOn": "Descargalo en el",
+    "downloadOn": "Descárgalo en el",
     "appStore": "App Store"
   },
   "playStore": {
