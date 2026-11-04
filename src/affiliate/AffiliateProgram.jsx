@@ -1,7 +1,8 @@
+'use client'
+
 import { useTranslation } from "react-i18next"
-import BrandIcon from "../BrandIcon.jsx"
-import LanguageSwitcher from "../i18n/LanguageSwitcher.jsx"
-import useLangHref from "../i18n/useLangHref.js"
+import SiteFooter from "@/components/SiteFooter"
+import SiteHeader from "@/components/SiteHeader"
 
 function Sparkle({ className = "" }) {
   return (
@@ -123,30 +124,13 @@ function SectionHeading({ children }) {
 
 export default function AffiliateProgram() {
   const { t } = useTranslation(["affiliate", "common"])
-  const langHref = useLangHref()
   const fmt = useNumberFormats()
 
   return (
     <div className="min-h-screen font-sans flex flex-col">
-      <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-lg border-b border-white/5">
-        <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
-          <a href={langHref("/")} className="flex items-center gap-2">
-            <BrandIcon />
-            <span className="text-xl font-extrabold uppercase tracking-wider">Repp</span>
-          </a>
-          <div className="flex items-center gap-4">
-            <LanguageSwitcher />
-            <a
-              href={langHref("/")}
-              className="hidden sm:inline text-sm uppercase tracking-widest text-gray-400 hover:text-white transition-colors"
-            >
-              {t("common:nav.backHome")}
-            </a>
-          </div>
-        </div>
-      </nav>
+      <SiteHeader />
 
-      <main className="flex-1 pt-32 pb-20 px-6 relative">
+      <main className="flex-1 pt-16 pb-20 px-6 relative">
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-lime/5 rounded-full blur-[150px]" />
         </div>
@@ -331,32 +315,7 @@ export default function AffiliateProgram() {
         </div>
       </main>
 
-      <div className="max-w-4xl mx-auto px-6 w-full">
-        <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
-      </div>
-      <footer className="py-8 px-6">
-        <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <BrandIcon />
-            <span className="font-extrabold uppercase tracking-wider">Repp</span>
-          </div>
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
-            <a href={langHref("/affiliate")} className="text-gray-500 hover:text-white transition-colors">
-              {t("common:footer.affiliatesShort")}
-            </a>
-            <a href={langHref("/privacy-policy")} className="text-gray-500 hover:text-white transition-colors">
-              {t("common:footer.privacyShort")}
-            </a>
-            <a href={langHref("/support")} className="text-gray-500 hover:text-white transition-colors">
-              {t("common:footer.supportShort")}
-            </a>
-            <a href={langHref("/terms-and-conditions")} className="text-gray-500 hover:text-white transition-colors">
-              {t("common:footer.termsShort")}
-            </a>
-          </div>
-          <p className="text-sm text-gray-500">&copy; {new Date().getFullYear()} Repp.</p>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   )
 }

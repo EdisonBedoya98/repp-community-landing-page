@@ -1,45 +1,109 @@
 {
+  "meta": {
+    "title": "Repp · La app de gimnasio para registrar tus entrenos",
+    "description": "Registra cada serie, sube de rango en cada músculo y no rompas la racha. La app de gimnasio en español para iPhone y Android, gratis para empezar."
+  },
   "hero": {
-    "headline1": "Entrena",
-    "headline2": "con",
-    "headline3": "Repp",
-    "description": "Planes semanales con IA, registro completo de tus entrenos, rangos de fuerza y una comunidad que te motiva. La app de fitness que se adapta a ti."
+    "eyebrow": "App de gimnasio",
+    "titleTop": "Tu fuerza",
+    "titleBottom": "tiene rango.",
+    "subtitle": "Registra cada serie, sube de rango en cada músculo y no rompas la racha.",
+    "note": "Gratis para empezar · iPhone y Android",
+    "qr": "Escanea con tu teléfono",
+    "visual": "La app Repp: los rangos por músculo y el registro de un entreno serie por serie"
+  },
+  "facts": {
+    "label": "En resumen",
+    "exercises": "+1.300 ejercicios con GIF",
+    "offline": "Funciona sin señal",
+    "platforms": "iPhone y Android",
+    "spanish": "Todo en español"
   },
   "features": {
-    "titleStart": "Todo para",
-    "titleMiddle": "entrenar",
-    "titleEnd": "mejor",
-    "subtitle": "Funciones pensadas para que te enfoques en lo que importa: tu entrenamiento.",
-    "items": {
-      "aiPlans": {
-        "title": "Planes Semanales con IA",
-        "description": "Genera un plan semanal personalizado según tu objetivo, nivel, días disponibles y equipamiento, impulsado por IA."
-      },
-      "library": {
-        "title": "1500+ Ejercicios",
-        "description": "Biblioteca completa de ejercicios con guías visuales, filtrable por grupo muscular y equipamiento. Usa rutinas listas o crea las tuyas y organízalas en carpetas."
-      },
-      "tracking": {
-        "title": "Registro de Entrenos",
-        "description": "Registra series, repeticiones y peso con temporizador de descanso integrado. Funciona sin conexión y se sincroniza automáticamente."
-      },
-      "progress": {
-        "title": "Progreso y Estadísticas",
-        "description": "Gráficas, récords personales, rachas, reportes mensuales y mapa muscular para ver exactamente cómo mejoras."
-      },
-      "rankings": {
-        "title": "Rangos de Fuerza",
-        "description": "Gana tu Repp Rank y sube de nivel. Compara tu fuerza por grupo muscular, ajustada a tu peso corporal."
-      },
-      "community": {
-        "title": "Comunidad",
-        "description": "Comparte tus entrenos, sigue a tus amigos y mantente motivado con likes y comentarios en cada sesión."
-      }
+    "eyebrow": "Funciones",
+    "title": "Hecha para el gym.",
+    "download": "Descárgala gratis",
+    "log": {
+      "label": "Registro",
+      "title": "Registra cada serie en segundos.",
+      "text": "Peso, repes y descanso, con lo que hiciste la vez pasada a la vista. Y sin señal también.",
+      "visual": "El registro de un entreno en Repp: series con peso, repeticiones y el descanso"
+    },
+    "ranks": {
+      "label": "Rangos",
+      "title": "Sube de rango en cada músculo.",
+      "text": "De Hierro a Repp Elite, por ejercicio y por músculo. Mira qué tan fuerte eres y compárate con tus amigos.",
+      "visual": "Los rangos en Repp: el Rango Repp y el maniquí con el nivel de cada músculo",
+      "tiers": "Rangos de Hierro a Repp Elite"
+    },
+    "coach": {
+      "label": "Coach",
+      "title": "Un programa hecho para ti.",
+      "text": "Respondes unas preguntas (tu objetivo, tus días y lo que tienes a mano) y el Coach arma tu programa.",
+      "visual": "El Coach de Repp preguntando con qué equipo cuentas"
+    },
+    "habit": {
+      "label": "Racha y retos",
+      "title": "No rompas la racha.",
+      "text": "Cuenta tus semanas de entreno, llévala en un widget en tu pantalla y reta a un amigo a superar tu entreno.",
+      "visual": "El widget de racha de Repp y un reto uno contra uno",
+      "streak": "Racha",
+      "weeks": "semanas",
+      "days": [
+        "L",
+        "M",
+        "M",
+        "J",
+        "V",
+        "S",
+        "D"
+      ],
+      "challenge": "Reto",
+      "you": "Tú",
+      "rival": "Andrés",
+      "routine": "Empuje A",
+      "left": "Quedan 2 días",
+      "versus": "Supera su entreno"
     }
   },
-  "cta": {
-    "titleStart": "Empieza",
-    "titleEnd": "hoy",
-    "description": "Descarga la app y lleva tu entrenamiento al siguiente nivel. Gratis para empezar."
+  "trainer": {
+    "eyebrow": "Para entrenadores",
+    "title": "¿Eres entrenador?",
+    "text": "Arma rutinas y planes en Repp Coach y tus clientes los ven en su app de Repp.",
+    "button": "Conoce Repp Coach"
+  },
+  "faq": {
+    "eyebrow": "Preguntas",
+    "title": "Lo que nos preguntan.",
+    "items": [
+      {
+        "q": "¿Repp es gratis?",
+        "a": "Sí. Registras tus entrenos sin límite y guardas hasta 4 rutinas gratis. Repp Pro es opcional: rutinas ilimitadas, sobrecarga automática, guardar el programa del Coach y estadísticas avanzadas."
+      },
+      {
+        "q": "¿Funciona sin internet?",
+        "a": "Sí. Empiezas y terminas el entreno sin señal, y se sube solo cuando vuelve la conexión."
+      },
+      {
+        "q": "¿Cómo funcionan los rangos?",
+        "a": "Cada ejercicio que entrenas recibe un rango, de Hierro a Repp Elite, según el peso y las repeticiones que haces (y tu peso corporal en los ejercicios con el cuerpo). Tu rango por músculo y tu Rango Repp salen de ahí."
+      },
+      {
+        "q": "¿Qué son los retos?",
+        "a": "Retas a alguien a superar tu entreno, uno contra uno, y eliges el plazo. El reto se resuelve solo cuando tu rival termina el suyo."
+      },
+      {
+        "q": "¿Está para iPhone y Android?",
+        "a": "Sí, en App Store y en Google Play."
+      },
+      {
+        "q": "¿Puedo entrenar con mi entrenador?",
+        "a": "Sí. Si tu entrenador usa Repp Coach, te agrega y su plan te aparece en Entrenos."
+      }
+    ]
+  },
+  "final": {
+    "title": "Tu próximo PR empieza hoy.",
+    "note": "Gratis para empezar"
   }
 }

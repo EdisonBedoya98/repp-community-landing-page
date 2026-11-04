@@ -2,7 +2,10 @@
   "nav": {
     "features": "Features",
     "download": "Download",
-    "backHome": "Back to home"
+    "backHome": "Back to home",
+    "ranks": "Ranks",
+    "faq": "FAQ",
+    "sections": "Sections"
   },
   "footer": {
     "affiliates": "Affiliate Program",
@@ -13,7 +16,11 @@
     "privacy": "Privacy Policy",
     "support": "Support",
     "terms": "Terms and Conditions",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "app": "App",
+    "legal": "Legal",
+    "coach": "Repp Coach for trainers",
+    "tagline": "The gym app built for lifters: log every set, rank up and keep your streak alive."
   },
   "language": {
     "label": "Language",

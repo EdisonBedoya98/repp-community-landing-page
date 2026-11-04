@@ -1,3 +1,5 @@
+'use client'
+
 import { useTranslation } from "react-i18next"
 import LegalLayout from "./LegalLayout"
 import { RichP, RichList } from "./RichText"

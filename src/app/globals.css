@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  /* Los tokens de la app (apps/mobile/src/theme/colors.ts), del panel y de reppcoach.com:
+     un cambio de color de marca va en todos. */
+  --color-canvas: #0d0d0d;
+  --color-panel: #0f0f0f;
+  --color-card: #1a1a1a;
+  --color-field: #1e1e1e;
+  --color-raised: #242424;
+  --color-line: #2a2a2a;
+  --color-signal: #a3e635;
+  --color-signal-strong: #84cc16;
+  --color-ink: #0d0d0d;
+  --color-muted: #9ca3af;
+  --color-dim: #6b7280;
+
+  /* Nombres anteriores que usan las páginas legales y la de afiliados, con los valores de
+     la marca (antes el lima era #B8FF00, distinto del de la app). */
+  --color-lime: #a3e635;
+  --color-lime-dark: #84cc16;
+  --color-surface: #1a1a1a;
+  --color-surface-light: #2a2a2a;
+  --color-green-accent: #4caf50;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-canvas);
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--color-signal);
+  color: var(--color-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.legal-prose {
+  color: #d1d5db;
+  line-height: 1.75;
+}
+.legal-prose h2 {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+.legal-prose h3 {
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.legal-prose p {
+  margin-bottom: 1rem;
+  color: #9ca3af;
+}
+.legal-prose ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: #9ca3af;
+}
+.legal-prose ul li {
+  margin-bottom: 0.5rem;
+}
+.legal-prose strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+.legal-prose a {
+  color: var(--color-lime);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.legal-prose a:hover {
+  color: var(--color-lime-dark);
+}
