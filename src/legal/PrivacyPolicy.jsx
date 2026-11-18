@@ -32,6 +32,10 @@ export default function PrivacyPolicy() {
       <h3>{t("section1.sub4Heading")}</h3>
       <RichP html={t("section1.sub4Body")} />
 
+      <h3>{t("section1.sub5Heading")}</h3>
+      <RichP html={t("section1.sub5Body")} />
+      <RichList items={tArr("section1.sub5List")} />
+
       <h2>{t("section2.heading")}</h2>
       <RichP html={t("section2.body")} />
       <RichList items={tArr("section2.list")} />

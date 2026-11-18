@@ -1,9 +1,9 @@
 {
   "title": "Política de Privacidad",
-  "lastUpdated": "4 de octubre de 2026",
+  "lastUpdated": "17 de noviembre de 2026",
   "intro1": "En <strong>Repp</strong> (\"nosotros\", \"nuestro\" o \"la app\") respetamos tu privacidad y nos comprometemos a protegerla. Esta Política de Privacidad describe qué información recopilamos cuando utilizas la aplicación móvil Repp y los servicios relacionados (en conjunto, el \"Servicio\"), cómo la usamos, con quién la compartimos y los derechos que tienes sobre ella.",
   "intro2": "Al crear una cuenta o utilizar el Servicio aceptas las prácticas descritas en esta Política. Si no estás de acuerdo, por favor no utilices la app.",
-  "changesSummary": "<strong>Qué cambió el 4 de octubre de 2026:</strong> ahora publicamos anuncios de Repp en Facebook e Instagram, y usamos AppsFlyer y Meta para medir qué anuncios traen gente a la app, mejorar a quién se le muestran y armar públicos. La versión anterior de esta Política decía que no usábamos tus datos para publicidad dirigida; eso ya no es así. Los detalles, y cómo limitar ese uso, están en la sección 8.",
+  "changesSummary": "<strong>Qué cambió el 17 de noviembre de 2026:</strong> agregamos la función Correr, que graba el recorrido de tus carreras con la ubicación de tu teléfono y, si lo activas, lee tu frecuencia cardíaca de Apple Salud o Health Connect. Qué datos usa, quién los ve y qué nunca hacemos con ellos está en la sección 1.5. El cambio anterior, del 4 de octubre de 2026, fue la publicidad en Facebook e Instagram, explicada en la sección 8.",
   "section1": {
     "heading": "1. Información que recopilamos",
     "sub1Heading": "1.1 Información de cuenta",
@@ -19,7 +19,15 @@
       "Tiempos de descanso configurados y uso del temporizador."
     ],
     "sub4Heading": "1.4 Información técnica y de uso",
-    "sub4Body": "Recopilamos automáticamente información sobre tu dispositivo (modelo, sistema operativo, idioma), identificadores únicos de instalación, identificadores del dispositivo y de publicidad, dirección IP, registros de fallos y eventos de uso (pantallas visitadas, funciones utilizadas) para mantener y mejorar el Servicio. Los identificadores del dispositivo y de publicidad son: en iOS, el IDFV (un código que Apple le asigna a Repp en tu iPhone, distinto para cada empresa) y, solo si lo permites en el aviso de Apple que pregunta si Repp puede rastrear tu actividad (App Tracking Transparency), el IDFA (el identificador de publicidad de tu iPhone); en Android, el ID de publicidad de Google. Esos identificadores, tu dirección IP y algunos eventos de la app (no los registros de fallos ni las pantallas que visitas) también se usan para medir y mejorar nuestros anuncios, como se explica en la sección 8."
+    "sub4Body": "Recopilamos automáticamente información sobre tu dispositivo (modelo, sistema operativo, idioma), identificadores únicos de instalación, identificadores del dispositivo y de publicidad, dirección IP, registros de fallos y eventos de uso (pantallas visitadas, funciones utilizadas y los elementos que tocas, con el texto que muestran) para mantener y mejorar el Servicio. A partir de tu dirección IP, nuestras herramientas de analítica estiman tu país y tu ciudad. Los identificadores del dispositivo y de publicidad son: en iOS, el IDFV (un código que Apple le asigna a Repp en tu iPhone, distinto para cada empresa) y, solo si lo permites en el aviso de Apple que pregunta si Repp puede rastrear tu actividad (App Tracking Transparency), el IDFA (el identificador de publicidad de tu iPhone); en Android, el ID de publicidad de Google. Esos identificadores, tu dirección IP y algunos eventos de la app (no los registros de fallos ni las pantallas que visitas) también se usan para medir y mejorar nuestros anuncios, como se explica en la sección 8.",
+    "sub5Heading": "1.5 Carreras con el GPS de Repp: ubicación y frecuencia cardíaca",
+    "sub5Body": "Si usas la función <strong>Correr</strong>:",
+    "sub5List": [
+      "<strong>Ubicación precisa:</strong> usamos el GPS de tu teléfono solo desde que tocas «Empezar» en una carrera hasta que la terminas o la descartas, incluidas las pausas, también con la pantalla apagada o la app en segundo plano. Mientras graba, el teléfono lo indica: en iPhone con el indicador azul de ubicación y en Android con una notificación de Repp. Fuera de una carrera la app no accede al GPS. Con él calculamos la distancia, el ritmo, el desnivel, la velocidad y los parciales, y guardamos el recorrido.",
+      "<strong>Recorrido y métricas:</strong> cada carrera se guarda en tu cuenta con su recorrido y va en su publicación, que muestra el recorrido completo sobre un mapa, incluidos el punto de inicio y el de llegada. Con la visibilidad <strong>Todos</strong> la pueden ver otros usuarios de Repp; con <strong>Privado</strong>, la publicación, el recorrido y el mapa solo los ves tú, aunque otros usuarios pueden ver en el calendario de tu perfil qué días entrenaste o corriste y cuánto duró. Si compartes una carrera fuera de Repp, por ejemplo en una historia, la imagen puede incluir el trazo del recorrido.",
+      "<strong>Frecuencia cardíaca (opcional):</strong> si activas el pulso en Configuración › Carrera (viene apagado), leemos de <strong>Apple Salud</strong> (iPhone) o de <strong>Health Connect</strong> (Android) solo tu frecuencia cardíaca durante el tiempo que duró cada carrera (también la de una carrera anterior que todavía no la tenía, cuando abres su detalle), y guardamos con la carrera solo su promedio y su máximo, nunca las mediciones sueltas. No leemos ningún otro dato de Apple Salud ni de Health Connect, ni escribimos nada en ellos. El promedio y el máximo llegan a quienes pueden ver la publicación de la carrera; en la app, el promedio se muestra en el detalle de la publicación y el máximo solo te lo mostramos a ti.",
+      "Tu ubicación, el recorrido y tu frecuencia cardíaca <strong>nunca</strong> se usan para publicidad, nunca se envían a AppsFlyer ni a Meta, y no se venden."
+    ]
   },
   "section2": {
     "heading": "2. Cómo usamos tu información",
@@ -27,6 +35,7 @@
     "list": [
       "Proveer, operar y mantener el Servicio.",
       "Personalizar tus rutinas, recomendaciones y estadísticas.",
+      "Grabar tus carreras si usas la función Correr: calcular la distancia, el ritmo, el desnivel y los parciales con tu ubicación, dibujar el mapa del recorrido y mostrar tu frecuencia cardíaca si la activaste.",
       "Sincronizar tus datos entre dispositivos cuando inicias sesión.",
       "Gestionar tu suscripción.",
       "Medir y mejorar nuestros anuncios en otras plataformas, como Facebook e Instagram: saber qué anuncio o enlace trajo cada instalación, medir los resultados de las campañas, mejorar a quién se le muestran y armar públicos (por ejemplo, para no mostrárselos a quien ya instaló Repp) (ver sección 8).",
@@ -44,7 +53,9 @@
     "heading": "4. Cómo compartimos tu información",
     "body": "<strong>No vendemos tus datos personales</strong>: nadie nos paga por ellos. Sí los compartimos en los casos siguientes, incluidos los socios de publicidad que se describen abajo:",
     "list": [
-      "<strong>Proveedores de servicio</strong> que nos ayudan a operar la app (alojamiento en la nube, autenticación y base de datos, almacenamiento de archivos, analítica de producto y monitoreo de errores), bajo acuerdos de confidencialidad y tratamiento de datos.",
+      "<strong>Proveedores de servicio</strong> que nos ayudan a operar la app (alojamiento en la nube, autenticación y base de datos, almacenamiento de archivos, mapas, analítica de producto y monitoreo de errores), bajo acuerdos de confidencialidad y tratamiento de datos.",
+      "<strong>Otros usuarios de Repp:</strong> lo que publicas, por ejemplo un entrenamiento o una carrera con su mapa y sus métricas, lo ven otros usuarios según la visibilidad que elijas (Todos o Privado).",
+      "<strong>Mapas:</strong> para dibujar la imagen del recorrido de una carrera enviamos las coordenadas del recorrido, sin tu nombre ni tu correo, a <strong>Mapbox</strong>.",
       "<strong>Suscripciones y pagos:</strong> RevenueCat gestiona las suscripciones que compras dentro de la app a través de Apple o Google. Los datos de tu tarjeta los procesan Apple y Google; Repp no los recibe.",
       "<strong>Socios de publicidad y medición:</strong> AppsFlyer, que mide qué anuncios y enlaces traen gente a Repp, y Meta (Facebook e Instagram), donde publicamos anuncios de Repp y que recibe datos solo a través de AppsFlyer. Reciben identificadores de tu dispositivo y ciertos eventos de la app y de tu suscripción; AppsFlyer recibe además tu dirección IP y tu identificador de usuario de Repp. Los usan para medir nuestros anuncios, decidir a quién se muestran y armar públicos, y Meta también para sus propios fines. No reciben tu correo ni tu número de teléfono. Los detalles están en la sección 8.",
       "<strong>Cumplimiento legal:</strong> cuando sea requerido por ley, orden judicial o para proteger nuestros derechos, los tuyos o la seguridad pública.",
@@ -59,7 +70,7 @@
   },
   "section6": {
     "heading": "6. Retención de datos",
-    "body": "Conservamos tu información mientras tu cuenta esté activa o el tiempo necesario para cumplir con los fines descritos en esta Política. Cuando elimines tu cuenta, borraremos o anonimizaremos en un plazo razonable los datos personales que guardamos nosotros, salvo que la ley exija conservarlos. Los datos que ya recibieron AppsFlyer, Meta y RevenueCat no se borran automáticamente al eliminar tu cuenta: se conservan según sus propias políticas. Si quieres que les pidamos borrar los datos asociados a tu dispositivo o a tu cuenta, escríbenos a <a href=\"mailto:support@repp.community\">support@repp.community</a>."
+    "body": "Conservamos tu información mientras tu cuenta esté activa o el tiempo necesario para cumplir con los fines descritos en esta Política. Cuando elimines tu cuenta, borraremos o anonimizaremos en un plazo razonable los datos personales que guardamos nosotros, salvo que la ley exija conservarlos. Si borras la publicación de una carrera, borramos de nuestros servidores la carrera, su recorrido y la imagen del mapa; las copias de seguridad se eliminan solas con el tiempo. Los datos que ya recibieron AppsFlyer, Meta y RevenueCat no se borran automáticamente al eliminar tu cuenta: se conservan según sus propias políticas. Si quieres que les pidamos borrar los datos asociados a tu dispositivo o a tu cuenta, escríbenos a <a href=\"mailto:support@repp.community\">support@repp.community</a>."
   },
   "section7": {
     "heading": "7. Tus derechos",
@@ -78,7 +89,7 @@
   },
   "section8": {
     "heading": "8. Servicios de terceros y publicidad",
-    "body": "La app utiliza, entre otros, servicios de terceros para autenticación y base de datos (Supabase), almacenamiento de archivos, analítica de producto (PostHog), monitoreo de errores (Sentry), notificaciones push (Expo, Apple y Google), inicio de sesión con Google o Apple, la integración con Strava si decides conectarla, suscripciones (RevenueCat) y atribución, medición y publicidad (AppsFlyer y, a través de AppsFlyer, Meta). Los proveedores tratan tus datos por encargo nuestro, solo reciben los necesarios para cumplir su función y están sujetos a sus propias políticas de privacidad. Meta, en cambio, también usa los datos que recibe para sus propios fines, como se explica en la sección 8.2. La app no incluye el SDK de Facebook ni los de otras redes publicitarias.",
+    "body": "La app utiliza, entre otros, servicios de terceros para autenticación y base de datos (Supabase), almacenamiento de archivos, mapas de los recorridos (Mapbox), analítica de producto (PostHog), monitoreo de errores (Sentry), notificaciones push (Expo, Apple y Google), inicio de sesión con Google o Apple, la integración con Strava si decides conectarla, suscripciones (RevenueCat) y atribución, medición y publicidad (AppsFlyer y, a través de AppsFlyer, Meta). Los proveedores tratan tus datos por encargo nuestro, solo reciben los necesarios para cumplir su función y están sujetos a sus propias políticas de privacidad. Meta, en cambio, también usa los datos que recibe para sus propios fines, como se explica en la sección 8.2. La app no incluye el SDK de Facebook ni los de otras redes publicitarias.",
     "attributionHeading": "8.1 Atribución y medición de anuncios (AppsFlyer)",
     "attributionBody": "Usamos <strong>AppsFlyer</strong> para saber qué anuncio o enlace te trajo a Repp. Con eso medimos y mejoramos nuestros anuncios y, cuando instalas Repp desde el enlace que compartió un creador, sabemos a través de qué enlace llegaste para poder pagarle su comisión a esa persona. AppsFlyer recibe:",
     "attributionList": [
